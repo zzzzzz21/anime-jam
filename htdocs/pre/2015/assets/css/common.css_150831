@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+@keyframes infiniteScroll {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 94.5% 0%;
+  }
+}
+#wrap {
+  min-width: 1180px;
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 2;
+  background: #fff;
+}
+
+h1 {
+  float: left;
+  margin-top: 13px;
+  margin-left: 28px;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+h1:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  width: 392px;
+  letter-spacing: -.40em;
+}
+nav ul li {
+  letter-spacing: normal;
+  display: inline-block;
+  height: 75px;
+  overflow: hidden;
+  margin-left: 35px;
+}
+nav ul li:first-child {
+  margin-left: 0px;
+}
+nav ul li img {
+  vertical-align: top;
+}
+nav ul li:hover img {
+  margin-top: -75px;
+}
+nav ul .active img {
+  margin-top: -75px !important;
+}
+nav ul .disable img {
+  margin-top: -75px !important;
+}
+
+.mod-header-ticketLink {
+  float: right;
+  height: 75px;
+  overflow: hidden;
+  margin-left: 29px;
+}
+.mod-header-ticketLink:hover img {
+  margin-top: -75px;
+}
+.mod-header-ticketLink img {
+  vertical-align: top;
+}
+
+.mod-header-lineup {
+  display: none;
+  clear: both;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: 234px;
+  background: rgba(243, 51, 66, 0.9);
+  letter-spacing: -.40em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.mod-header-lineupItem {
+  letter-spacing: normal;
+  display: inline-block;
+  margin-left: 20px;
+}
+.mod-header-lineupItem:first-child {
+  margin-left: 0px;
+}
+.mod-header-lineupItem:hover {
+  opacity: 0.75;
+}
+.mod-header-lineupItem a {
+  color: #fff;
+  text-decoration: none;
+}
+.mod-header-lineupItem p {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.25em;
+  color: white;
+  width: 101px;
+}
+.mod-header-lineupItem p img {
+  width: 100%;
+  height: auto;
+}
+.mod-header-lineupItem p:first-child {
+  margin-bottom: 11px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  background: #F1F1F1;
+  display: table;
+}
+
+.mod-copyright {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #f33342;
+}
+
+.mod-pageTop {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.mod-pageTop:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.layout-fixedObj {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+	background-color: #000;
+}
+
+article {
+	border-top: 1px solid #c4c8c9;
+}
+h2 {
+	padding: 58px 0 56px;
+}
+
+.info_main {
+	margin: 60px 30px;
+	padding: 58px 30px;
+	border: 5px solid #d6dee0;
+}
+.info_main section {
+	padding-bottom: 46px;
+	line-height: 1.4;
+}
+
+.info_main section h3 {
+	color: #f33342;
+	padding-bottom: 16px;
+}
+
+
+.cast a {
+	text-decoration: underline;
+}
+.ticket section {
+	text-align: left;
+}
+.ticket section h4 {
+	text-align: center;
+}
+
+.rock {
+	background: url(http://anime-jam.com/assets/fig/common/bg_rock.gif);
+}
+.pop {
+	background: url(http://anime-jam.com/assets/fig/common/bg_pop.gif);
+}
+.stage {
+	padding: 56px 0 60px;
+}
+.stage h3 {
+	padding-bottom: 24px;
+}
+.stage ul {
+	position: relative;
+}
+.stage ul li {
+	display: inline-block;
+	position: relative;
+	top:0;
+	left:0;
+	width: 260px;
+	height: 325px;
+	margin-top: 26px;
+}
+.stage ul li:first-child {
+	margin-right: 22px;
+}
+.stage ul li .title, .kv {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+/**/
+span {
+	font-size: 0.7rem;
+}

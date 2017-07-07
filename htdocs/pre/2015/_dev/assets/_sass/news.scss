@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+
+@import 'functions';
+
+// ------------------
+// layout-news
+// ------------------
+.layout-news{
+	min-width: 1180px;
+	margin-top:75px;
+	@include easing;
+}
+.mod-news-title{
+	padding-top: 60px;
+	margin: 0 auto 60px;
+	width: 116px;
+}
+
+// list
+.layout-news-dashboard{
+	width: 850px;
+	margin: 0 auto;
+}
+
+.layout-news-datalist{
+	border-top:1px solid #E6E6E6;
+}
+
+.layout-news-item{
+	border-bottom:1px solid #E6E6E6;
+	a{
+		color: #000;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.mod-news-artcileTitle{
+	margin-top: 13px;
+	width: 850px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 1em;
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+.mod-news-artcileReleaseDate{
+	margin-bottom: 13px;
+	font-size: 11px;
+}
+
+
+.layout-news-pager{
+	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 61px;
+	letter-spacing: -.40em;
+	a{
+		color: #000;
+		text-decoration: none;
+	}
+}
+.mod-news-pager-prev{
+	letter-spacing: normal;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	margin-right: 5px;
+	&:hover{
+		img{
+			margin-top: -40px;
+		}
+	}
+}
+.mod-news-pager-item{
+	letter-spacing: normal;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #F1F1F1;
+	margin-left: 10px;
+	.inner{
+		position: relative;
+		display: table;
+		width: 40px;
+		height: 40px;
+		p{
+			vertical-align: middle;
+			display: table-cell;
+		}
+	}
+	&:hover{
+		opacity: 0.5;
+	}
+}
+.mod-news-pager-item-active{
+	background: #F33342;
+	.inner{
+		p{
+			color: #fff;
+		}
+	}
+	opacity: 1!important;
+}
+
+.mod-news-pager-next{
+	margin-left: 15px;
+	letter-spacing: normal;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	&:hover{
+		img{
+			margin-top: -40px;
+		}
+	}
+}
+
+// detail
+.layout-news-detail{
+	width: 850px;
+	margin: 0 auto 94px;
+}
+.mod-news-articleTitle{
+	font-size: 24px;
+	margin-bottom: 13px;
+}
+.mod-news-articleReleaseDate{
+	font-size: 13px;
+	color: #787878;
+	margin-bottom: 29px;
+}
+.mod-news-article{
+	border-top: 1px solid #E6E6E6;
+	padding-top: 31px;
+	line-height: 1.5em;
+}
+.mod-news-article-share{
+	margin-top: 30px;	
+	letter-spacing: -.40em;
+	li{
+		vertical-align: top;
+		letter-spacing: normal;
+		display: inline-block;
+		&:first-child{
+			margin-right: 15px;
+		}
+	}
+}
+.mod-news-backtop{
+	width: 236px;
+	margin: 34px auto 0;
+}

@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+a {
+  color: #f33342;
+}
+
+.layout-eventinfo {
+  min-width: 1180px;
+  margin-top: 75px;
+}
+
+.mod-eventinfo-title {
+  padding-top: 59px;
+  margin: 0 auto 61px;
+  width: 244px;
+}
+
+.mod-eventinfo-description {
+  width: 750px;
+  margin: 0 auto 59px;
+}
+
+.layout-eventinfo-datalist {
+  width: 740px;
+  margin: 0 auto 61px;
+  border: 5px solid #F1F1F1;
+  padding-top: 32px;
+  padding-bottom: 31px;
+  line-height: 1.6em;
+}
+
+.layout-eventinfo-datalist-row {
+  margin-top: 30px;
+}
+.layout-eventinfo-datalist-row:first-child {
+  margin-top: 0px;
+}
+
+.mod-eventinfo-colTitle {
+  float: left;
+  margin-left: 63px;
+  font-size: 16px;
+  color: #f33342;
+  font-weight: bold;
+  width: 140px;
+}
+
+.mod-eventinfo-colDate {
+  float: left;
+  font-size: 16px;
+}
+.mod-eventinfo-colDate span {
+  font-size: 13px;
+}
+
+.mod-eventinfo-colPlace {
+  float: left;
+  font-size: 16px;
+}
+
+.mod-eventinfo-colSponsorship {
+  float: left;
+  font-size: 16px;
+  width: 475px;
+}
+.mod-eventinfo-colSponsorship span {
+  font-size: 13px;
+}
+
+.mod-eventinfo-colPrice {
+  float: left;
+  font-size: 16px;
+}
+.mod-eventinfo-colPrice span {
+  font-size: 13px;
+}
+
+.mod-eventinfo-note {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 61px;
+}
+
+.layout-popstage {
+  float: left;
+  width: 50%;
+  background: url("../fig/common/bg_pop.gif") top left;
+  padding-bottom: 60px;
+}
+
+.mod-popstage-title {
+  width: 256px;
+  margin: 0 auto 29px;
+  padding-top: 59px;
+}
+
+.layout-popstage-mold {
+  width: 50%;
+}
+
+.layout-popstage-row {
+  position: relative;
+  margin: 13px auto 0;
+  width: 547px;
+  height: 332px;
+}
+.layout-popstage-row:first-child {
+  margin: 0 auto 0;
+}
+
+.layout-popstage-col {
+  position: relative;
+  width: 267px;
+  height: 332px;
+  float: right;
+  display: table;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.layout-popstage-col:first-child {
+  float: left;
+}
+.layout-popstage-col:hover .mod-popstage-cover {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: auto;
+  bottom: 7px;
+  left: auto;
+  right: 7px;
+}
+.layout-popstage-col:hover .mod-popstage-thumbnail, .layout-popstage-col:hover .mod-popstage-workTitle {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: 7px;
+  bottom: auto;
+  left: 7px;
+  right: auto;
+}
+
+.mod-popstage-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  height: 325px;
+  background: #36BCD8 top left;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-popstage-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-popstage-workTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-popstage-andmore {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.layout-rockstage {
+  float: left;
+  width: 50%;
+  background: url("../fig/common/bg_rock.gif") top left;
+  padding-bottom: 60px;
+}
+
+.mod-rockstage-title {
+  width: 256px;
+  margin: 0 auto 29px;
+  padding-top: 59px;
+}
+
+.layout-rockstage-mold {
+  width: 50%;
+}
+
+.layout-rockstage-row {
+  position: relative;
+  margin: 13px auto 0;
+  width: 547px;
+  height: 332px;
+}
+.layout-rockstage-row:first-child {
+  margin: 0 auto 0;
+}
+
+.layout-rockstage-col {
+  position: relative;
+  width: 267px;
+  height: 332px;
+  float: right;
+  display: table;
+}
+.layout-rockstage-col:first-child {
+  float: left;
+}
+.layout-rockstage-col:hover .mod-rockstage-cover {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: auto;
+  bottom: 7px;
+  left: auto;
+  right: 7px;
+}
+.layout-rockstage-col:hover .mod-rockstage-thumbnail, .layout-rockstage-col:hover .mod-rockstage-workTitle {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: 7px;
+  bottom: auto;
+  left: 7px;
+  right: auto;
+}
+
+.mod-rockstage-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  height: 325px;
+  background: #F4F134 top left;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-rockstage-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-rockstage-workTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.mod-rockstage-andmore {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

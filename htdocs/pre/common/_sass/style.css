@@ -1,0 +1,41 @@
+/*
+Error: Invalid CSS after "				content:"": expected "{", was "";"
+        on line 965 of C:\Users\shimi\Documents\shimizu@hakarai\work\seven8\anime-jam_com\htdocs\pre\common\_sass\style.scss
+
+960: 			
+961: 			&:before{
+962: 				position: absolute;
+963: 				top: 8px;
+964: 				left: 0;
+965: 				content:"";
+966: 				display: block;
+967: 				text-indent: -9999px;
+968: 				
+969: 			}
+970: 			.btnOfficial{
+
+Backtrace:
+C:\Users\shimi\Documents\shimizu@hakarai\work\seven8\anime-jam_com\htdocs\pre\common\_sass\style.scss:965
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"				content:\"\": expected \"{\", was \"\";\"\A         on line 965 of C:\Users\shimi\Documents\shimizu@hakarai\work\seven8\anime-jam_com\htdocs\pre\common\_sass\style.scss\A \A 960: 			\A 961: 			&:before{\A 962: 				position: absolute;\A 963: 				top: 8px;\A 964: 				left: 0;\A 965: 				content:\"\";\A 966: 				display: block;\A 967: 				text-indent: -9999px;\A 968: 				\A 969: 			}\A 970: 			.btnOfficial{"; }

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+html, body {
+    width: 750px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Avenir Next", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;    font-size: 26px;
+    letter-spacing: 0.025em;
+}
+/*a {
+    transition: opacity 0.3s ease;
+}
+a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}*/
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+header h1 {
+	width: 310px;
+	height: 120px;
+	margin-left: 220px;
+}
+header .menuBtn {
+	position: absolute;
+	top:0;
+	right: 2px;
+}
+
+nav {
+	display: none;
+	position: absolute;
+	top: 120px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f33342;
+	z-index: 999;
+}
+nav .menu {
+	border-bottom:4px solid #f5717e;
+}
+nav .menu ul {
+	display: inline-block;
+	width: 300px;
+	padding: 30px 0 28px;
+}
+nav .menu ul:first-child {
+	margin-right: 20px;
+}
+nav .menu li {
+	width: 300px;
+	height: 95px;
+}
+nav .nav_lineup h3 {
+	margin: 54px 0;
+}
+nav .nav_lineup ul {
+	width: 630px;
+	margin: 0 auto;
+	text-align: left;
+}
+nav .nav_lineup ul li {
+	display: inline-block;
+	width: 192px;
+	margin: 0 0 30px 18px;
+	vertical-align: top;
+}
+nav .nav_lineup ul li a {
+	color: #fff;
+	font-size: 0.9rem;
+}
+nav .nav_lineup ul li:first-child {
+	margin-left: 0;
+}
+nav .nav_lineup ul li img {
+	padding-bottom: 24px;
+}
+.main_v {
+	border-bottom: 4px solid #fdc0c5;
+}
+.main_v .glide__wrapper {
+	width: 750px;
+	height: 540px;
+	overflow: hidden;
+}
+.main_v .ticketBtn {
+	margin: 60px 0;
+}
+
+.twitter {
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.twitter .timeline iframe {
+	height: 430px!important;
+}
+
+.lineup {
+	background: url(http://anime-jam.com/assets/fig/common/bg_common.gif);
+}
+.lineup h2{
+	padding: 56px 0 58px;
+}
+.lineup .moreBtn{
+	padding: 395px 0 60px;
+}
+
+.share {
+	background-color: #c6cbce;
+	padding-bottom: 62px;
+}
+.share h2 {
+	padding: 56px 0;
+}
+.share ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.share ul li:first-child {
+	margin-left: 0;
+}
+.support {
+	padding-bottom: 34px;
+}
+.support h3 {
+	padding: 54px 0 53px;
+}
+.support ul li {
+	display: inline-block;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.support ul li:nth-child(even) {
+	margin-left: 21px;
+}
+
+footer {
+	background-color: #f1f1f1;
+	font-size: 0.7rem;
+	color: #f33342;
+}
+footer .copy {
+	line-height: 1.4;
+	padding: 52px 0 56px;
+}
+footer .pageTop img {
+	vertical-align: bottom;
+}
+
+/*NEWS*/
+.news {
+	position: relative;
+	border-bottom: 4px solid #fdc0c5;
+	padding-bottom: 42px;
+}
+.news h2, .twitter h2 {
+	padding: 58px 0 56px;
+}
+.news .moreBtn, .twitter .followBtn {
+	position: absolute;
+	top: 38px;
+	right: 0;
+}
+
+
+.topics__list {
+	width: 690px;
+	margin: 0 auto;
+}
+.topics__list .topics__item {
+	border-top: 1px solid #c5c6c8;
+	list-style: none;
+	padding: 20px 0;
+}
+.topics__list .topics__item:first-child {
+	border-top: 0;
+}
+
+.topics__list .topics__item article {
+	text-align: left;
+	font-size: 1rem;
+}
+.topics__list .topics__item article a {
+	color: #000;
+	line-height: 1.4;
+}
+
+.publish-date {
+	font-size: 0.8rem;
+	color: #c5c6c8;
+}

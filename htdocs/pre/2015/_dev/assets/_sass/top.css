@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+@keyframes infiniteScroll {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 94.5% 0%;
+  }
+}
+.layout-slider {
+  margin-top: 75px;
+  position: relative;
+  width: 100%;
+  background: url("../fig/common/bg_common.gif");
+  background-position: 0 0;
+  animation-name: infiniteScroll;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.layout-slidelist {
+  position: relative;
+  max-width: 1500px;
+  min-width: 1180px;
+  margin: 0 auto;
+}
+
+.mod-slideItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.mod-slideMold {
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+.mod-slideMold img {
+  vertical-align: top;
+  width: 50%;
+  height: auto;
+}
+
+.mod-slideImgLeftCurrent {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  vertical-align: top;
+}
+.mod-slideImgLeftCurrent img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+
+.mod-slideImgRightCurrent {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  width: 50%;
+  overflow: hidden;
+  vertical-align: top;
+}
+.mod-slideImgRightCurrent img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.mod-slideImgLeftNext {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  vertical-align: top;
+}
+.mod-slideImgLeftNext img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.mod-slideImgRightNext {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.mod-slideImgRightNext img {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.mod-interim_next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -25px;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 255, 0.2);
+  display: none;
+}
+
+.mod-interim_prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -25px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 0, 0, 0.2);
+  display: none;
+}
+
+.mod-sliderTicketLink {
+  position: absolute;
+  top: auto;
+  bottom: 40px;
+  left: 50%;
+  width: 28.8%;
+  margin-left: -14.4%;
+}
+.mod-sliderTicketLink img {
+  width: 100%;
+  height: auto;
+}
+
+#mod-sliderTicketBtn2 {
+  display: none;
+}
+
+.layout-multimedia {
+  position: relative;
+  width: 1140px;
+  margin: 60px auto 60px;
+}
+
+.layout-news {
+  position: relative;
+  width: 517px;
+  float: left;
+}
+
+.mod-newsTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.layout-newsItem {
+  border-top: 1px solid #E6E6E6;
+}
+.layout-newsItem:first-child {
+  border-top: none;
+}
+.layout-newsItem a {
+  color: #000;
+  text-decoration: none;
+}
+.layout-newsItem a:hover {
+  text-decoration: underline;
+}
+
+.mod-newsArticleTitle {
+  margin-top: 13px;
+  width: 517px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 1em;
+  margin-bottom: 13px;
+  font-size: 15px;
+}
+
+.mod-newsArticleReleaseDate {
+  margin-bottom: 13px;
+  font-size: 11px;
+}
+
+.mod-newsMoreBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.mod-newsMoreBtn:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.layout-twitter {
+  position: relative;
+  width: 521px;
+  float: right;
+}
+
+.mod-twitterTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.layout-twitterList {
+  width: 521px;
+  height: 261px;
+  overflow-y: scroll;
+}
+.layout-twitterList iframe {
+  width: 521px;
+  height: 261px;
+}
+
+.mod-twitterFollowBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.mod-twitterFollowBtn:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.layout-lineup {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 655px;
+  background: url("../fig/common/bg_common.gif");
+  background-position: 0 0;
+  animation-name: infiniteScroll;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.mod-lineupTitle {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.layout-lineuptItemlists {
+  position: relative;
+  width: 100%;
+  height: 332px;
+}
+
+.layout-lineuptItemlist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -.40em;
+}
+
+.layout-lineuptItem {
+  letter-spacing: normal;
+  display: inline-block;
+  position: relative;
+  width: 267px;
+  height: 332px;
+  margin-left: 13px;
+}
+.layout-lineuptItem:first-child {
+  margin-left: 0px;
+}
+.layout-lineuptItem:nth-child(odd) .mod-linuptItemCover {
+  background: #F4F134;
+}
+.layout-lineuptItem:nth-child(even) .mod-linuptItemCover {
+  background: #36BCD8;
+}
+.layout-lineuptItem:hover .mod-linuptItemCover {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: auto;
+  bottom: 3px;
+  left: auto;
+  right: 3px;
+}
+.layout-lineuptItem:hover .mod-linuptItemImg, .layout-lineuptItem:hover .mod-linuptItemTitle {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  top: 4px;
+  bottom: auto;
+  left: 4px;
+  right: auto;
+}
+.layout-lineuptItem .inner {
+  overflow: hidden;
+  letter-spacing: normal;
+  display: inline-block;
+  position: relative;
+  width: 267px;
+  height: 332px;
+  margin-left: 13px;
+}
+
+.mod-linuptItemCover {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  position: absolute;
+  width: 260px;
+  height: 325px;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+}
+
+.mod-linuptItemImg, .mod-linuptItemTitle {
+  transition: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+  position: absolute;
+  width: 260px;
+  height: 325px;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: auto;
+}
+
+.mod-linuptItemNew {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+.mod-linuptItemNew_inner {
+  position: relative;
+  width: 62px;
+  height: 62px;
+}
+.mod-linuptItemNew_inner p {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.layout-lineupMore {
+  margin: 0 auto;
+  width: 236px;
+  margin-top: 62px;
+  text-align: center;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.layout-lineupMore:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.layout-movie {
+  position: relative;
+  width: 100%;
+  height: 670px;
+}
+
+.mod-movieTitle {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.mod-movieBox {
+  margin: 0 auto 60px;
+  width: 820px;
+  height: 460px;
+  background: #F1F1F1;
+}
+
+.layout-share {
+  position: relative;
+  width: 100%;
+  height: 326px;
+  background: #aaa;
+  animation-name: infiniteScroll;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.mod-shareTitle {
+  padding-top: 58px;
+  padding-bottom: 59px;
+  text-align: center;
+}
+
+.layout-shareList {
+  letter-spacing: -.40em;
+  text-align: center;
+}
+.layout-shareList li {
+  letter-spacing: normal;
+  display: inline-block;
+  margin-left: 19px;
+  cursor: pointer;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.layout-shareList li:hover {
+  opacity: 0.7;
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.layout-shareList li:first-child {
+  margin-left: 0px;
+}
+
+.layout-banner {
+  position: relative;
+}
+
+.mod-bannerTitle {
+  padding-top: 59px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.layout-bannerList {
+  width: 1050px;
+  letter-spacing: -.40em;
+  margin: 0 auto 50px;
+}
+.layout-bannerList li {
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+  vertical-align: top;
+  letter-spacing: normal;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  background: url("../fig/top/bn_sample.gif");
+  margin: 0 5px 10px;
+  cursor: pointer;
+}
+.layout-bannerList li:hover {
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+  opacity: 0.5;
+}

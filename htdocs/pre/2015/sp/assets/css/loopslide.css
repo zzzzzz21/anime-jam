@@ -1,0 +1,62 @@
+#loopslider {
+    width: 100%;
+    height: 332px;
+    text-align: left;
+    overflow: hidden;
+    background: url(../img/bar.gif) center;
+    position: absolute;
+}
+#loopslider ul {
+    height: 332px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+/*    width: 2200px !important;*/
+}
+
+#loopslider ul li {
+    position: relative;
+    width: 280px;
+    height: 332px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+/*original*/
+#loopslider li .kv, #loopslider li .title {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+#loopslider li .bg {
+    position: absolute;
+    top: 7px;
+    left:7px;
+    width: 260px;
+    height: 325px;
+    background-color: #fff;
+    z-index: 0;
+}
+#loopslider li:nth-child(odd) .bg {
+  background: #36BCD8;
+}
+#loopslider li:nth-child(even) .bg {
+  background: #F4F134;
+}
+
+ /* =======================================
+    ClearFixElements
+======================================= */
+#loopslider ul:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+#loopslider ul {
+    display: inline-block;
+    overflow: hidden;
+}

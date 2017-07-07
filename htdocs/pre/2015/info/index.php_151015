@@ -1,0 +1,225 @@
+<?php 
+	include_once "../_util.php";
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<?php include_once "../_meta.php"; ?>	
+	<link rel="stylesheet" href="<?php echo $rP;?>assets/css/info.css">
+</head>
+<body>
+	<?php include_once "_ga.php"; ?>
+	<div id="wrap">
+	
+		<?php include_once "../_header.php"; ?>	
+		<div class="layout-eventinfo">
+			
+			<p class="mod-eventinfo-title">
+				<img src="../assets/fig/event_info/title.png" height="32" width="244" alt="EVENT INFO">
+			</p>
+			
+			<p class="mod-eventinfo-description">
+				<img src="../assets/fig/event_info/text_catch.png" height="125" width="760" alt="2014年末にも開催した「アニメJAM」が今年も開催。テレビ東京で放送されているアニメ作品が一同に集結。昨年よりもさらにパワーアップすること間違いなしの夢のコラボレーションイベント。トークにライブ、アフレコなど、盛り沢山な内容となります!!">
+			</p>
+			<a class="report" href="/2014/archive_2014.php">2014年のイベントレポートはこちら！</a>
+			<div class="layout-eventinfo-datalist">
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">日時</p>
+					<p class="mod-eventinfo-colDate">
+						2015年12月13日（日）<br />
+						Rock Stage：開場12：00　開演13：00<br />
+						Pop Stage：開場17：00　開演18：00<br />
+						<span>※時間は変更になる可能性がございます。</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">場所</p>
+					<p class="mod-eventinfo-colPlace">
+						幕張メッセ　国際展示ホール５
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">出演作品</p>
+					<p class="mod-eventinfo-colSponsorship">
+						<img src="../assets/fig/lineup/title_rockstage.png" width="148" alt=""><br />
+						 「銀魂」「ダイヤのA」「弱虫ペダル」<br />
+						<img src="../assets/fig/lineup/title_popstage.png" width="148" alt=""><br />
+						「Wake Up, Girls！」「プリパラ」「実は私は」　
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">イベント出演者</p>
+					<p class="mod-eventinfo-colSponsorship">
+						<a href="/cast/">イベントの出演者についてはこちらをご覧ください</a>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">チケット価格</p>
+					<p class="mod-eventinfo-colPrice">
+						各7,800円（税込／全席指定）<br />
+						<span>※イベントオリジナルグッズ付き</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">チケット販売</p>
+					<p class="mod-eventinfo-colPrice">
+						1）公式HP1次先行受付<br />
+						受付期間：10月5日（月）18：00〜10月13日（火）23：59
+						受付URL：<a href="http://w.pia.jp/s/animejam15hp1/" target="_blank">http://w.pia.jp/s/animejam15hp2/</a><br>
+						《PC・携帯共通》<br>
+						<span>※上記先行受付は、先着順ではございません。当落は受付期間終了後、抽選にて決定させて頂きます。</span>
+						<br />
+						<br />
+						2）JTBオフィシャルツアースペシャルパック<br />
+						ホテル宿泊プランや限定グッズ、イベントグッズ事前申込などの特典がついたスペシャルパック<br />
+						<br />
+						申込開始日：受付中<br />
+						概要・受付URL：<a href="http://jtb-biz.jp/jam2015/" target="_blank">http://jtb-biz.jp/jam2015/</a><br />
+						<span>※上記のスぺシャルパックの受付は先着順となります。予定数に達し次第、受付終了とさせていただきます。</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">お問い合わせ</p>
+					<p class="mod-eventinfo-colPrice">
+						【公演に関するお問い合わせ】<br />
+						インフォメーションダイヤル<br />
+						TEL：03-5793-8878<br />
+						<span>（オペレーター受付時間　平日13:00～18:00）</span><br />
+						<br />
+						【チケットに関するお問い合わせ】<br />
+						チケットぴあインフォメーション<br />
+						TEL：0570-02-9111(10:00～18：00)<br />
+						<span>※公演の内容、抽選方式等に関するお問いあわせは一切お答えいたしかねます。</span><br />
+						<br />
+						【JTBオフィシャルツアースペシャルパックに関するお問い合わせ】<br />
+						JTBコーポレートセールス　法人営業横浜支店内<br />
+						アニメJAM2015オフィシャルツアーデスク<br />
+						<span>（営業時間：9:30～17:30、定休日：土日祝日休業）</span><br />
+						<br />
+						TEL：045-316-4602<br />
+						FAX：045-316-5701<br />
+						Mail：<a href="mailto:jtb_convention@bwt.jtb.jp">jtb_convention@bwt.jtb.jp</a><br />
+						担当：山口・小林(陽)<br />
+						<span>※土日のお問い合わせはメールのみとなります。</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">主催</p>
+					<p class="mod-eventinfo-colSponsorship">
+						テレビ東京・アニメJAM2015実行委員会
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">企画・制作</p>
+					<p class="mod-eventinfo-colSponsorship">
+						テレビ東京／エイベックス・ピクチャーズ
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">協力</p>
+					<p class="mod-eventinfo-colSponsorship">
+						エイベックス・ピクチャーズ／東宝／トムス・ミュージック<br>
+						ユニバーサル ミュージック(50音順)<br />
+					</p>
+				</div>
+			</div>
+			<p class="mod-eventinfo-note">
+				※内容は変更になる可能性があります。
+			</p>
+
+			<div class="layout-stage cf">
+				<div class="layout-rockstage">
+					<p class="mod-rockstage-title">
+						<img src="../assets/fig/event_info/title_rockstage.png" height="140" width="276" alt="">
+					</p>
+					<div class="layout-rockstage-row cf">
+						<div class="layout-rockstage-col">
+							<a href="/lineup/gintama.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_gintama.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_gintama.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-rockstage-col">
+							<a href="/lineup/daiyanoace.php">
+							<p class="mod-rockstage-cover"></p>
+							<p class="mod-rockstage-thumbnail">
+								<img src="../assets/fig/common/lineup/img_thumb_dianoA.jpg" height="188" width="150" alt="">
+							</p>
+							<p class="mod-rockstage-workTitle">
+								<img src="../assets/fig/common/lineup/logo_thumb_dianoA.png" height="188" width="150" alt="">
+							</p>
+							</a>
+						</div>
+						<div class="layout-rockstage-col">
+							<a href="/lineup/yowamushipedal.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_yowapeda.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_yowapeda.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="layout-popstage">
+					<p class="mod-popstage-title">
+						<img src="../assets/fig/event_info/title_popstage.png" height="140" width="256" alt="">
+					</p>
+					<div class="layout-popstage-row cf">
+						<div class="layout-popstage-col">
+							<a href="/lineup/wakeupgirls.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_wug.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_wug.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<a href="/lineup/pripara.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_pripara.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_pripara.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<a href="/lineup/jitsuhawatashiha.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_jitsuha.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_jitsuha.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php include_once "../_footer.php"; ?>
+		<p class="mod-pageTop">
+			<img src="<?php echo $rP;?>assets/fig/common/btn_pagetop.png" height="60" width="60" alt="page top">
+		</p>
+	</div>
+	<?php include_once "../_floatObj.php"; ?>
+	<!-- script -->
+	<script data-main="<?php echo $rP;?>assets/js/common" src="<?php echo $rP;?>assets/js/lib/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+	background-color: #000;
+}
+
+article {
+	border-top: 1px solid #c4c8c9;
+}
+h2 {
+	padding: 58px 0 56px;
+}
+
+
+.main_v {
+	position: relative;
+}
+.main_v span{
+	position: absolute;
+	right:0;
+	bottom: 0;
+}
+
+.rock_wrap .main {
+	background: url(http://anime-jam.com/assets/fig/common/bg_rock.gif);
+}
+.pop_wrap .main {
+	background: url(http://anime-jam.com/assets/fig/common/bg_pop.gif);
+}
+.title {
+	padding: 72px 0 78px;
+}
+.overview {
+	margin: 0 30px;
+	text-align: left;
+	line-height: 1.6;
+}
+.toOfficial {
+ 	padding: 58px 0 60px;
+}
+.eventCast {
+	padding-bottom: 12px;
+	border-bottom: 4px solid #f9c2c7;
+}
+.eventCast h3, .live h3 {
+ 	margin: 56px 0 58px;
+}
+
+.eventCast ul li {
+	display: inline-block;	
+	text-align: left;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.eventCast ul li:first-child {
+	margin-left: 0;
+}
+.eventCast ul li .chara, .live_jitsuha li .chara{
+	color: #f33342;
+	font-size: 0.75rem;
+	margin: 20px 0 10px 0;
+}
+.eventCast ul li .cast, .live_jitsuha li .cast {
+	margin: 0 0 24px 0;
+}
+.live {
+	border-bottom: 4px solid #f9c2c7;
+}
+.live ul {
+	margin: 0 30px;
+}
+.live ul li {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 225px;
+	margin: 0 0 30px 30px;
+	line-height: 1.4;
+}
+.live ul li:nth-child(odd) {
+	margin-left: 0;
+}
+
+.ticketBtn {
+	margin: 70px 0 60px;
+}
+
+.lineup_list h4 {
+	padding: 56px 0 18px;
+}
+.lineup_list ul {
+	text-align: left;
+	width: 690px;
+	margin: 0 auto;
+	padding: 0 0 24px 0;
+}
+
+
+.lineup_list ul li {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 0 30px 21px;
+	line-height: 1.4;
+}
+.lineup_list ul li:first-child {
+	margin-left: 0;
+}
+.lineup_list ul li a {
+		color: #000;
+}
+
+.lineup_list .rock {
+	background: url(http://anime-jam.com/assets/fig/common/bg_rock.gif);
+}
+.lineup_list .pop {
+	background: url(http://anime-jam.com/assets/fig/common/bg_pop.gif);
+}
+.lineup_list .rock .active:after {
+	position: absolute;
+	top: 0;
+	left:0;
+	content: url(../img/lineup/cover_rock_now.png);
+}
+.lineup_list .pop .active:after {
+	position: absolute;
+	top: 0;
+	left:0;
+	content: url(../img/lineup/cover_pop_now.png);
+}
+
+.live_jitsuha li {
+	width: 145px!important;
+	margin: 0 0 30px!important;
+}
+.live ul li.small {
+	width: 145px!important;
+}

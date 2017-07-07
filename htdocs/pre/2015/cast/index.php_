@@ -1,0 +1,116 @@
+<?php 
+	include_once "../_util.php";
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<?php include_once "../_meta.php"; ?>	
+	<link rel="stylesheet" href="<?php echo $rP;?>assets/css/cast.css">
+</head>
+<body>
+	<?php include_once "_ga.php"; ?>
+	<div id="wrap">
+	
+		<?php include_once "../_header.php"; ?>	
+		<div class="layout-cast">
+			
+			<p class="mod-eventinfo-title">
+				<img src="../assets/fig/event_info/title.png" height="32" width="244" alt="CAST">
+			</p>
+
+			<div class="layout-stage cf">
+				<div class="layout-rockstage">
+					<p class="mod-rockstage-title">
+						<img src="../assets/fig/event_info/title_rockstage.png" height="140" width="276" alt="">
+					</p>
+					<div class="layout-rockstage-row cf">
+						<div class="layout-rockstage-col">
+							<a href="/lineup/gintama.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_gintama.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_gintama.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-rockstage-col">
+							<a href="/lineup/daiyanoace.php">
+							<p class="mod-rockstage-cover"></p>
+							<p class="mod-rockstage-thumbnail">
+								<img src="../assets/fig/common/lineup/img_thumb_dianoA.jpg" height="188" width="150" alt="">
+							</p>
+							<p class="mod-rockstage-workTitle">
+								<img src="../assets/fig/common/lineup/logo_thumb_dianoA.png" height="188" width="150" alt="">
+							</p>
+							</a>
+						</div>
+						<div class="layout-rockstage-col">
+							<a href="/lineup/yowamushipedal.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_yowapeda.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_yowapeda.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="layout-popstage">
+					<p class="mod-popstage-title">
+						<img src="../assets/fig/event_info/title_popstage.png" height="140" width="256" alt="">
+					</p>
+					<div class="layout-popstage-row cf">
+						<div class="layout-popstage-col">
+							<a href="/lineup/wakeupgirls.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_wug.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_wug.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<a href="/lineup/pripara.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_pripara.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_pripara.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<a href="/lineup/jitsuhawatashiha.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_jitsuha.jpg" height="188" width="150" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_jitsuha.png" height="188" width="150" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php include_once "../_footer.php"; ?>
+		<p class="mod-pageTop">
+			<img src="<?php echo $rP;?>assets/fig/common/btn_pagetop.png" height="60" width="60" alt="page top">
+		</p>
+	</div>
+	<?php include_once "../_floatObj.php"; ?>
+	<!-- script -->
+	<script data-main="<?php echo $rP;?>assets/js/common" src="<?php echo $rP;?>assets/js/lib/require.js"></script>
+</body>
+</html>

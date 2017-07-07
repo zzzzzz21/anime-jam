@@ -1,0 +1,244 @@
+<?php 
+	include_once "../_util.php";
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<?php include_once "../_meta.php"; ?>	
+	<link rel="stylesheet" href="<?php echo $rP;?>assets/css/info.css">
+</head>
+<body>
+	<?php include_once "_ga.php"; ?>
+	<div id="wrap">
+	
+		<?php include_once "../_header.php"; ?>	
+		<div class="layout-eventinfo">
+			
+			<p class="mod-eventinfo-title">
+				<img src="../assets/fig/event_info/title.png" height="32" width="244" alt="EVENT INFO">
+			</p>
+			
+			<p class="mod-eventinfo-description">
+				<img src="../assets/fig/event_info/text_catch.png" height="125" width="750" alt="2014年末にも開催した「アニメJAM」が今年も開催。テレビ東京で放送されているアニメ作品が一同に集結。昨年よりもさらにパワーアップすること間違いなしの夢のコラボレーションイベント。トークにライブ、アフレコなど、盛り沢山な内容となります!!">
+			</p>
+			<div class="layout-eventinfo-datalist">
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">日時</p>
+					<p class="mod-eventinfo-colDate">
+						2015年12月13日（日）<br />
+						Rock Stage：開場12：00　開演13：00 （予定）<br />
+						Pop Stage：開場17：00　開演18：00　（予定）<br />
+						<span>※時間は変更になる可能性がございます。</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">場所</p>
+					<p class="mod-eventinfo-colPlace">
+						幕張メッセ　国際展示ホール５
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">出演作品</p>
+					<p class="mod-eventinfo-colSponsorship">
+						◆Rock Stage◆<br />
+						 「銀魂」「ダイヤのA」「弱虫ペダル」<br />
+						◆Pop Stage◆<br />
+						　「Wake Up, Girls！」「プリパラ」「実は私は」　
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">イベント出演者</p>
+					<p class="mod-eventinfo-colSponsorship">
+						◆Rock Stage◆<br />
+						○キャスト<br />
+						【銀魂】<br />
+						杉田智和、阪口大助、釘宮理恵<br />
+						【ダイヤのA】<br />
+						逢阪良太、浅沼晋太郎<br />
+						【弱虫ペダル】<br />
+						山下大輝、鳥海浩輔、福島潤<br />
+						○アーティスト<br />
+						LASTGASP<br />
+						<br />
+						◆Pop Stage◆<br />
+						○キャスト<br />
+						【Wake Up, Girls！】<br />
+						吉岡茉祐、永野愛理、田中美海、青山吉能<br />
+						山下七海、奥野香耶、高木美佑<br />
+						【プリパラ】<br />
+						茜屋日海夏、芹澤優、久保田未夢、山北早紀<br />
+						澁谷梓希、若井友希<br />
+						【実は私は】<br />
+						芹澤優、水瀬いのり、内田彩、M.・A・.O<br />
+						○アーティスト<br />
+						Wake Up, Girls！、i☆Ris、Prizmmy☆<br />
+						アルスマグナ<br />
+						<br />
+						and more<br />
+						<span>※出演者は変更になる可能性がございます。</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">チケット価格</p>
+					<p class="mod-eventinfo-colPrice">
+						7,800円（税込／全席指定）<br />
+						<span>※イベントオリジナルグッズ付き</span>
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">チケット販売</p>
+					<p class="mod-eventinfo-colPrice">
+						「uP!!! auスマートパス先行」申込受付：<br />
+						9月1日（火）18時～9月13日(日)23時59分
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">お問合せ</p>
+					<p class="mod-eventinfo-colPrice">
+						＜公演に関するお問合せ＞<br />
+						インフォメーションダイヤル　03-5793-8878 （平日13時～18時）<br />
+						<br />
+						＜チケットに関するお問い合わせ＞<br />
+						uP!!! auスマートパス先行に関するお問い合わせ　<a href="mailto:question@pia.co.jp">question@pia.co.jp</a><br />
+						その他のチケットに関するお問い合わせ<br />
+						チケットぴあインフォメーション　0570-02-9111(10:00～18：00)<br />
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">主催</p>
+					<p class="mod-eventinfo-colSponsorship">
+						テレビ東京・アニメJAM2015実行委員会
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">企画・制作</p>
+					<p class="mod-eventinfo-colSponsorship">
+						テレビ東京・エイベックスピクチャーズ
+					</p>
+				</div>
+				<div class="layout-eventinfo-datalist-row cf">
+					<p class="mod-eventinfo-colTitle">協力</p>
+					<p class="mod-eventinfo-colSponsorship">
+						エイベックスピクチャーズ／ソニーミュージック／東宝／トムスミュージック／ユニバーサルミュージック<br />
+						(50音順)<br />
+						<span>&copy;空知英秋／集英社･テレビ東京･電通･BNP･アニプレックス<br />
+						&copy;寺嶋裕二・講談社／「ダイヤのＡ‐ＳＳ‐」製作委員会・テレビ東京<br />
+						&copy;渡辺航（週刊少年チャンピオン）／弱虫ペダルGR製作委員会<br />
+						&copy;Green Leaves / Wake Up, Girls！2製作委員会<br />
+						&copy;T-ARTS / syn Sophia / テレビ東京 / PP2製作委員会<br />
+						&copy;増田英二（週刊少年チャンピオン）／じつわた製作委員会 </span>
+					</p>
+				</div>
+			</div>
+			<p class="mod-eventinfo-note">
+				※内容は変更になる可能性があります。
+			</p>
+
+			<div class="layout-stage cf">
+				<div class="layout-rockstage">
+					<p class="mod-rockstage-title">
+						<img src="../assets/fig/event_info/title_rockstage.png" height="70" width="276" alt="">
+					</p>
+					<div class="layout-rockstage-row cf">
+						<div class="layout-rockstage-col">
+							<a href="gintama.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_gintama.jpg" height="325" width="260" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_gintama.png" height="325" width="260" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-rockstage-col">
+							<a href="yowamushipedal.php">
+								<p class="mod-rockstage-cover"></p>
+								<p class="mod-rockstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_yowapeda.jpg" height="325" width="260" alt="">
+								</p>
+								<p class="mod-rockstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_yowapeda.png" height="325" width="260" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+					<div class="layout-rockstage-row cf">
+						<div class="layout-rockstage-col">
+							<p class="mod-rockstage-cover"></p>
+							<p class="mod-rockstage-thumbnail">
+								<img src="../assets/fig/common/lineup/img_thumb_dianoA.jpg" height="325" width="260" alt="">
+							</p>
+							<p class="mod-rockstage-workTitle">
+								<img src="../assets/fig/common/lineup/logo_thumb_dianoA.png" height="325" width="260" alt="">
+							</p>
+						</div>
+						<div class="layout-rockstage-col">
+							<p class="mod-rockstage-andmore">
+								<img src="../assets/fig/event_info/text_rock_andmore.png" height="20" width="110" alt="">
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="layout-popstage">
+					<p class="mod-popstage-title">
+						<img src="../assets/fig/event_info/title_popstage.png" height="70" width="256" alt="">
+					</p>
+					<div class="layout-popstage-row cf">
+						<div class="layout-popstage-col">
+							<a href="wakeupgirls.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_wug.jpg" height="325" width="260" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_wug.png" height="325" width="260" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<a href="pripara.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_pripara.jpg" height="325" width="260" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_pripara.png" height="325" width="260" alt="">
+								</p>
+							</a>
+						</div>
+					</div>
+					<div class="layout-popstage-row cf">
+						<div class="layout-popstage-col">
+							<a href="jitsuhawatashiha.php">
+								<p class="mod-popstage-cover"></p>
+								<p class="mod-popstage-thumbnail">
+									<img src="../assets/fig/common/lineup/img_thumb_jitsuha.jpg" height="325" width="260" alt="">
+								</p>
+								<p class="mod-popstage-workTitle">
+									<img src="../assets/fig/common/lineup/logo_thumb_jitsuha.png" height="325" width="260" alt="">
+								</p>
+							</a>
+						</div>
+						<div class="layout-popstage-col">
+							<p class="mod-popstage-andmore">
+								<img src="../assets/fig/event_info/text_pop_andmore.png" height="20" width="110" alt="">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php include_once "../_footer.php"; ?>
+		<p class="mod-pageTop">
+			<img src="<?php echo $rP;?>assets/fig/common/btn_pagetop.png" height="60" width="60" alt="page top">
+		</p>
+	</div>
+	<?php include_once "../_floatObj.php"; ?>
+	<!-- script -->
+	<script data-main="<?php echo $rP;?>assets/js/common" src="<?php echo $rP;?>assets/js/lib/require.js"></script>
+</body>
+</html>

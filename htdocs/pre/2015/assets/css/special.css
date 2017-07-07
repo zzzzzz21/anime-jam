@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+p.lead{
+  text-align:center;
+  padding: 30px 0 70px;
+  line-height:1.6em;
+  font-size:16px;
+}
+.inwrap{
+  width: 100%;
+  margin: 75px auto;
+}
+.inwrap h3{
+  text-align:center;
+  padding: 60px 0 45px;
+}
+.pop{
+    background: url("../fig/common/bg_pop.gif") top left;
+    padding: 45px 0;
+}
+.rock{
+    background: url("../fig/common/bg_rock.gif") top left;
+    padding: 45px 0;
+
+}
+.pop h4,.rock h4{
+  text-align:center;
+  margin: 30px 0;
+}
+.pop .cf,.rock .cf{
+  width:1040px;
+  margin:0 auto;
+}
+.pop .cf dl,.rock .cf dl{
+  display:inline-block;
+  width: 220px;
+  margin: 20px 17px;
+  font-size:14px;
+  line-height:1.6em;
+}
+.pop .cf dl dt span,.rock .cf dl dt span{
+  display:block;
+  color:#f33342;
+}
+ 

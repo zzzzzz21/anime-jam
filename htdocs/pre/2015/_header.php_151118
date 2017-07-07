@@ -1,0 +1,192 @@
+		<!-- header -->
+		<header class="cf">			
+			<h1>
+				<a href="<?php echo $rP;?>">
+					<img src="<?php echo $rP;?>assets/fig/common/menu/logo.png" height="48" width="180" alt="アニメJAM 2015">
+				</a>
+			</h1>
+
+
+			<!--div class="mod-header-ticketLink">
+				<a href="<?php echo $rP;?>ticket/">
+					<img src="<?php echo $rP;?>assets/fig/common/menu/menu_ticket.png" height="150" width="147" alt="TICKET">
+				</a>
+			</div-->
+
+			<div class="mod-header-archive">
+				<a href="<?php echo $rP;?>2014/archive_2014.php">
+					ANIME JAM 2014<br>
+					イベントレポート
+				</a>
+			</div>
+
+			<nav>
+				<ul>
+					<li>
+						<a href="<?php echo $rP;?>info/">
+							<img src="<?php echo $rP;?>assets/fig/common/menu/menu_event_info.png" height="150" width="90" alt="EVENT INFO">
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo $rP;?>cast/">
+							<img src="<?php echo $rP;?>assets/fig/common/menu/menu_event_cast.png" height="150" width="90" alt="EVENT CAST">
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo $rP;?>news/?page=1&year=">
+							<img src="<?php echo $rP;?>assets/fig/common/menu/menu_news.png" height="150" width="46" alt="NEWS">
+						</a>
+					</li>
+					<li class="mod-nav-lineup">
+						<img src="<?php echo $rP;?>assets/fig/common/menu/menu_lineup.png" height="150" width="63" alt="LINE UP">
+						<img src="<?php echo $rP;?>assets/fig/common/menu/icon_arrow.png" height="150" width="22" alt="">
+					</li>
+					<li>
+						<a href="<?php echo $rP;?>ticket/">
+							<img src="<?php echo $rP;?>assets/fig/common/menu/menu_ticket.png" height="150" width="63" alt="TICKET">
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo $rP;?>special/">
+							<img src="<?php echo $rP;?>assets/fig/common/menu/menu_special.png" height="150" width="65" alt="SPECIAL">
+						</a>
+					</li>
+
+					<div class="social"><div class="inner">
+						<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fanime-jam.com&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;colorscheme=light&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:20px;" allowtransparency="true"></iframe>
+						<iframe id="twitter-widget-i1441363322834420886" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" src="http://platform.twitter.com/widgets/tweet_button.420281f7dd393a35b17552fb11b499a9.ja.html#_=1441363322933&amp;count=horizontal&amp;counturl=http%3A%2F%2Fanime-jam.com&amp;dnt=false&amp;id=twitter-widget-i1441363322834420886&amp;lang=ja&amp;original_referer=http%3A%2F%2Fpre.anime-jam.com%2F2015%2F&amp;size=m&amp;text=%E3%82%A2%E3%83%8B%E3%83%A1JAM%202015%20%23%E3%82%A2%E3%83%8B%E3%83%A1JAM&amp;type=share&amp;url=http%3A%2F%2Fanime-jam.com" style="position: static; visibility: visible; width: 108px; height: 20px;" data-url="http://anime-jam.com"></iframe><script type="text/javascript" src="http://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div>
+					</li>
+				</ul>
+			</nav>
+			<div class="mod-header-lineup">
+				<div class="mod-header-lineupItemList">
+					<div class="mod-header-lineupItem" style="opacity:1 !important;">
+						<p class="stage_contents"><img src="<?php echo $rP;?>assets/fig/lineup/title_rockstage.png" width="150" alt="ROCK　STAGE"></p>
+					</div>
+
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/gintama.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_gintama.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								銀魂
+								<br /><br />
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/daiyanoace.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_dianoA.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								ダイヤのＡ
+								<br /><br />
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/yowamushipedal.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_yowapeda.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								弱虫ペダル
+								<br /><br />
+							</a>
+						</p>
+					</div>
+
+				</div>
+				<div class="mod-header-lineupItemList">
+					<div class="mod-header-lineupItem" style="opacity:1 !important;">
+						<p class="stage_contents"><img src="<?php echo $rP;?>assets/fig/lineup/title_popstage.png" width="150" alt="POP　STAGE"></p>
+					</div>
+
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/wakeupgirls.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_wug.jpg" width="101" alt="">
+							</p>
+							<p>
+								Wake Up, Girls！
+						</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/pripara.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_pripara.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								プリパラ<br /><br />
+							</p>
+						</a>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/jitsuhawatashiha.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_jitsuha.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								実は私は
+								<br /><br />
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/osomatsusan.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_osomatsu.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								おそ松さん
+								<br /><br />
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/fairytail.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_fairy.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								FAIRY TAIL
+								<br /><br />
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/nonnonbiyori.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_nonnon.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								のんのんびより りぴーと
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/saki.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_saki.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								咲-saki-　全国編
+							</a>
+						</p>
+					</div>
+					<div class="mod-header-lineupItem">
+						<a href="<?php echo $rP;?>lineup/ikamusume.php">
+							<p>
+								<img src="<?php echo $rP;?>assets/fig/common/lineup/img_thumb_ikamusume.jpg" height="325" width="260" alt="">
+							</p>
+							<p>
+								侵略！イカ娘
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>

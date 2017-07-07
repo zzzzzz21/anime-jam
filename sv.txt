@@ -1,0 +1,27 @@
+==========================
+【本番】
+IP：	210.136.114.107
+アカウント：	animejam06_78
+パスワード：	syXh65Qd
+
+http://anime-jam.com/
+
+==========================
+【プレ】
+IP：	210.136.114.107
+アカウント：	pre_animejam06_78
+パスワード：	RNb4dE3c
+
+http://pre.anime-jam.com/
+ベーシック認証ID：	ani_check
+ベーシック認証PW：	kd5jf9
+
+==========================
+【静的HTML確認環境】
+IP：	59.106.94.49
+アカウント：	anime-jamhakaraicojp
+パスワード：	qKyf6F9NJ0
+
+http://anime-jam.hakarai.co.jp/
+ベーシック認証ID：	anime-jam
+ベーシック認証PW：	preview

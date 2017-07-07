@@ -1,0 +1,20 @@
+'use strict'
+requirejs.config({
+  baseUrl: '/assets/js/',
+  paths: {
+    'jquery': ['lib/jquery-1.11.1.min'],
+    'velocity': ['lib/velocity.min'],
+    'modernizr': ['lib/modernizr.custom.21931'],
+  },
+  shim: {
+    'jquery': {
+      exports: '$'
+    },
+    'velocity': {
+      deps: ['jquery'],
+      exports: 'velocity'
+    }
+  }
+});
+
+require(['modernizr','jquery','velocity','common','top.vslider','top.hslider'], function(modernizr,$, velocity) {});

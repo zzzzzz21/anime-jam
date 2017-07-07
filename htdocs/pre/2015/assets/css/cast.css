@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+a {
+  color: #f33342;
+}
+
+.layout-cast {
+  min-width: 1180px;
+  margin-top: 75px;
+}
+.mod-eventinfo-title{
+  /* padding: 59px 0 61px; */
+  text-align:center;
+}
+.layout-cast h3{
+  text-align:center;
+  padding: 60px 0 45px;
+}
+.stage{
+  font-size:0;
+  margin: 0 0 100px;
+}
+.rock,.pop{
+  /* float:left; */
+  /* width: 50%; */
+  vertical-align:top;
+  margin: 0;
+  padding: 0;
+  margin: 0 0 0;
+  padding:0;
+  font-size:14px;
+  text-align:center;
+  /* height: 3250px; */
+  padding: 70px 0 0px;
+}
+.rock{
+  background:url("../fig/common/bg_rock.gif") top left;
+  /* height:100%; */
+}
+.pop{
+  background:url("../fig/common/bg_pop.gif") top left;
+}
+.layout-eventcast-dataList{
+  width: 900px;
+  margin: 0 auto 0px;
+  padding: 50px 0;
+  text-align: center;
+}
+.layout-eventcast-dataItem{
+  display:inline-block;
+  width: 181px;
+  padding-bottom: 30px;
+  vertical-align: top;
+}
+.layout-eventcast-dataItem:first-child {
+  margin-left: 0px;
+}
+.layout-eventcast-dataItem p {
+  text-align: left;
+}
+
+.mod-eventcast-dataItem-img {
+margin-bottom: 12px;
+}
+.mod-eventcast-dataItem-img img{
+}
+
+.mod-eventcast-dataItem-actName {
+  color: #f33342;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.mod-eventcast-dataItem-actorName {
+  font-size: 14px;
+}
+.mod-dustJacket-workTitle{
+  height: 110px;
+  display: block;
+  width: 100%;
+}
+.mod-dustJacket-workTitle img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.layout-stagecast-dataList{
+  width: 745px;
+  margin:0 auto;
+  text-align: center;
+}
+.layout-stagecast-dataItem{
+  display:inline-block;
+  margin: 0 10px 30px;
+  text-align: left;
+  vertical-align: top;
+}
+.mod-stagecast-dataItem-name{
+  margin:10px 0 0;
+}
+.mod-rockstage-title,.mod-popstage-title{
+  margin:0 0 50px;
+}
+.new_icon{
+  position:relative;
+  vertical-align: top;
+}
+.new_icon:before{
+  content:url(/assets/fig/common/icon_new.png);
+  position:absolute;
+  left: -15px;
+  top: -15px;
+}
+.mod-stagecast-dataItem-img{
+  margin-bottom:10px;
+}
