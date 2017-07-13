@@ -1,9 +1,22 @@
 $(window).on("load resize", function(){
  // mainImgSize();
-  navCheck();
+ // navCheck();
+});
+
+$(function(){
+    $('.nav-ul .pc_con').hover(function(){
+        $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+          }, function(){ 
+                $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+    });
+    $('.nav-btn').on('touchstart', function() {
+        $('#header').toggleClass('is-active');
+    });
 });
 
 
+
+/*
 $(function() {
 
 	//スクロールでpagetopBTN表示
@@ -50,7 +63,6 @@ $(function() {
 	
          
 });
-
 $(function(){
 
   function getFirstScrollable(selector){
@@ -105,22 +117,6 @@ $(function(){
 		return false;
 	});
  
-	$(".data-switch").each(function(){
-		var $this = jQuery(this);
-		var PC_IMG_SUFFIX = '_pc';
-		var SP_IMG_SUFFIX = '_sp';
-		var SP_WIDTH = 767;
-		function imgSize(){
-			var windowWidth = jQuery(window).width();
-			if(windowWidth >= SP_WIDTH + 1) {
-				$this.attr('src',$this.attr('src').replace(SP_IMG_SUFFIX,PC_IMG_SUFFIX)).css({visibility:'visible'});
-				} else if(windowWidth < SP_WIDTH + 1) {
-				$this.attr('src',$this.attr('src').replace(PC_IMG_SUFFIX,SP_IMG_SUFFIX)).css({visibility:'visible'});
-			}
-		}
-		$(window).resize(function(){imgSize();});
-		imgSize();
-	});
 });
 
 
@@ -139,7 +135,6 @@ function navCheck(){
 	}
 }
 
-
-
+*/
 
 
