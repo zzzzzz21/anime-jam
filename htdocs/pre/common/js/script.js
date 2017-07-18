@@ -5,6 +5,7 @@ if (typeof(window.matchMedia) == "function") {
     isSP = true;
   }
 }
+
 $(function(){
     if (isSP == true) {
         $("#contents img").each(function(){
@@ -13,16 +14,13 @@ $(function(){
         });
     }
 });
+
 $(function(){
-    $('.nav-ul .pc_con').hover(function(){
-        $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
-          }, function(){ 
-                $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
-    });
     $('.nav-btn').on('touchstart', function() {
         $('#header').toggleClass('is-active');
     });
 });
+
 function changeTwitterWidgetDesign(){
   var $twitter_widget = $('iframe.twitter-timeline');
   var $twitter_widget_contents = $twitter_widget.contents();

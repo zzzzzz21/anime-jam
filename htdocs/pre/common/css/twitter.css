@@ -1,4 +1,6 @@
 @charset "UTF-8";
-.SandboxRoot.env-bp-min .timeline-Tweet-text {
+.SandboxRoot.env-bp-min .timeline-Tweet-text,
+.TweetAuthor-name,
+.SandboxRoot.env-bp-min .timeline-Tweet-retweetCredit {
 	color: #FFF;
 }
