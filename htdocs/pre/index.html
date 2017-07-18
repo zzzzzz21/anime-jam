@@ -55,7 +55,6 @@
 <script src="common/js/html5.js"></script>
 <![endif]-->
 <script src="common/js/script.js"></script>
-
 </head>
 
 
@@ -80,55 +79,55 @@
 			<ul class="nav-ul">
 				<li>
 					<a href="/" class="is-active">
-						<img src="common/images/sp/nb01.jpg" alt="TOP" class="sp_con">
+						<img src="common/images/nb01_sp.jpg" alt="TOP" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="/info.html" class="is-active">
+					<a href="/info/" class="is-active">
 						<img src="common/images/hb01_off.png" alt="EVENT INFO" class="pc_con">
-						<img src="common/images/sp/nb02.jpg" alt="EVENT INFO" class="sp_con">
+						<img src="common/images/nb02_sp.jpg" alt="EVENT INFO" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/cast/" class="is-active">
 						<img src="common/images/hb02_off.png" alt="EVENT CAST" class="pc_con">
-						<img src="common/images/sp/nb03.jpg" alt="EVENT CAST" class="sp_con">
+						<img src="common/images/nb03_sp.jpg" alt="EVENT CAST" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/news/" class="is-active">
 						<img src="common/images/hb03_off.png" alt="NEWS" class="pc_con">
-						<img src="common/images/sp/nb04.jpg" alt="NEWS" class="sp_con">
+						<img src="common/images/nb04_sp.jpg" alt="NEWS" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/lineup/" class="is-active">
 						<img src="common/images/hb04_off.png" alt="LINEUP" class="pc_con">
-						<img src="common/images/sp/nb05.jpg" alt="LINEUP" class="sp_con">
+						<img src="common/images/nb05_sp.jpg" alt="LINEUP" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/ticket/" class="is-active">
 						<img src="common/images/hb05_off.png" alt="TICKET" class="pc_con">
-						<img src="common/images/sp/nb06.jpg" alt="TICKET" class="sp_con">
+						<img src="common/images/nb06_sp.jpg" alt="TICKET" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="#TODO" class="is-active">
 						<img src="common/images/hb06_off.png" alt="MOVIE" class="pc_con">
-						<img src="common/images/sp/nb07.jpg" alt="MOVIE" class="sp_con">
+						<img src="common/images/nb07_sp.jpg" alt="MOVIE" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="#TODO" class="is-active">
 						<img src="common/images/hb07_off.png" alt="SPECIAL" class="pc_con">
-						<img src="common/images/sp/nb08.jpg" alt="MOVIE" class="sp_con">
+						<img src="common/images/nb08_sp.jpg" alt="SPECIAL" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="#TODO" class="is-active">
 						<img src="common/images/hb08_off.png" alt="GOODS&FOOD" class="pc_con">
-						<img src="common/images/sp/nb09.jpg" alt="GOODS&FOOD" class="sp_con">
+						<img src="common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
 					</a>
 				</li>
 			</ul>
@@ -147,14 +146,9 @@
 	<!-- ▼ contents -->
 
 	<div id="contents">
-		<div class="contentsInner">
-			<div class="contentsInner-spVisual sp_con">
-				<img src="common/images/sp/top_sp.jpg" alt="">
-			</div>
-			<div class="contentsInner-ticket">
-				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター" class="pc_con">
-				<img src="common/images/sp/flame_ticket.jpg" alt="チケット受付中 2017/12/24 舞浜アンフィシアター" class="sp_con">
-			</div>
+		<!-- PCとSPにてコンテンツの表示順が違うため、PCとSPのソースを分けます -->
+		<!-- PC版 -->
+		<div class="contentsInner pc_con">
 			<div class="contentsInner-news">
 				<ul class="contentsInner-news_tl">
 					<li class="news_tl-li">
@@ -194,9 +188,69 @@
 					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
 			</div>
+			<div class="contentsInner-ticket">
+				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター">
+			</div>
+		</div>
+		<div class="contentsInnner-movie pc_con">
+			<div class="contentsInner-movie_content">
+				<a href="" class="movie_content-btn"><img src="common/images/youtube_button.png" alt="youtube"></a>
+			</div>
+		</div>
+		<!-- SP版 -->
+		<div class="contentsInner sp_con">
+			<div class="contentsInner-spVisual sp_con">
+				<img src="common/images/top_kv.jpg" alt="">
+			</div>
+			<div class="contentsInner-ticket">
+				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター">
+			</div>
+			<div class="contentsInner-news">
+				<ul class="contentsInner-news_tl">
+					<li class="news_tl-li">
+						<a href="">
+							<div class="news_tl-img">
+								<img src="common/images/top-news_img01.jpg" alt="">
+							</div>
+							<div class="news_tl-text">
+								<p class="tl-text_date">2017.6.20</p>
+								<p class="tl-text_detail">テレビ東京の人気アニメが大集合！「アニメJAM2017」1Days開催決定！テキストテキストテキストテキスト</p>
+							</div>
+						</a>
+					</li>
+					<li class="news_tl-li">
+						<div class="news_tl-img">
+							<img src="common/images/top-news_img01.jpg" alt="">
+						</div>
+						<div class="news_tl-text">
+							<p class="tl-text_date">2017.6.20</p>
+							<p class="tl-text_detail">JTBオフィシャルツアースペシャルパックの受付を開始しました！</p>
+						</div>
+					</li>
+					<li class="news_tl-li">
+						<div class="news_tl-img">
+							<img src="common/images/top-news_img01.jpg" alt="">
+						</div>
+						<div class="news_tl-text">
+							<p class="tl-text_date">2017.6.20</p>
+							<p class="tl-text_detail">JTBオフィシャルツアースペシャルパックの受付を開始しました！</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="contentsInnner-movie sp_con">
+			<div class="contentsInner-movie_content">
+				<a href="" class="movie_content-btn"><img src="common/images/youtube_button.png" alt="youtube"></a>
+			</div>
+			</div>
+			<div class="contentsInner-twitter">
+				<div class="contentInner-twitter_content">
+					<a class="twitter-timeline" data-width="500" data-height="320" data-chrome="transparent nofooter noheader noscrollbar" data-link-color="#FFF" href="https://twitter.com/animejam_staff">Tweets by animejam_staff</a> 
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
 		</div>
 	</div>
-
 	<!-- ▲ contents -->
 	
 	<!-- ▼ footer -->
@@ -204,10 +258,9 @@
 		<p class="footer-copy">
 			&copy;T-ARTS / syn Sophia / テレビ東京 / IPP製作委員会　<br class="sp_con">&copy;Green Leaves / Wake Up, Girls！製作委員会　<br class="sp_con">&copy;サイトウケンジ・奈央晃徳 / KADOKAWA / トリニティセブン製作委員
 			<br>
-			&copy;けものフレンズプロジェクト / KFPA　<br class="sp_con">&copy;三星めがね・COMICメテオ / 恋愛暴君製作委員会
+			&copy;けものフレンズプロジェクトA　<br class="sp_con">&copy;三星めがね・COMICメテオ / 恋愛暴君製作委員会
 		</p>
 	</footer>
 	<!-- ▲ footer -->
-
 </body>
 </html>
