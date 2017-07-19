@@ -322,6 +322,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<li class="clearfix">
 						<div class="liveList-ul_text">
 							<img src="../common/images/live5_1.png" alt="どうぶつビスケッツ×PPP">
+							<p class="info">※本宮佳奈さんの出演はございません</p>
 						</div>
 						<img src="../common/images/live5_2.jpg" alt="" class="liveList-ul_img">
 					</li>

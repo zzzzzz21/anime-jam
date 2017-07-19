@@ -133,6 +133,7 @@ $RECENT_DATE = $RECENT_DATE;
 							$link = $uri."?".$param;
 
 							$html .= "<li>\n";	//▼<li>
+							$html .= "<div class=\"newsList-wrapper\">\n";
 							$html .= "<div class=\"newsList-data\">" .$date. "</div>\n";	//<div class="newsList-data">
 							$html .= "<a href=\"".$link."\">\n";			//▼<a href="">
 							if($xml->layout->layout_type == 1){
@@ -140,6 +141,7 @@ $RECENT_DATE = $RECENT_DATE;
 							}
 							$html .= "<p class=\"newsList-text\">".$title."</p>\n";			//<p class="newsList-text">タイトル</p>
 							$html .= "</a>\n";							//▲</a>
+							$html .= "</div>";
 							$html .= "</li>\n";						//▲</li>
 						}
 						$html .= "</ul>\n";

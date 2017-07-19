@@ -37,6 +37,11 @@ $RECENT_DATE = $RECENT_DATE;
 
 <!-- js -->
 <?php require_once "../../include/html/head_js.php";?>
+<script>
+	$(function() {
+		$('.lineUp-detail-text').matchHeight();
+	});
+</script>
 
 </head>
 
@@ -122,6 +127,7 @@ $RECENT_DATE = $RECENT_DATE;
 				<div class="lineUp-detail-middle clearfix">
 					<div class="detail-middle_text">
 						<img src="../../common/images/lineup_detail_live4.png" alt="どうぶつビスケッツ × PPP">
+						<p class="info">※本宮佳奈さんの出演はございません</p>
 					</div>
 					<div class="detail-middle_img">
 						<img src="../../common/images/lineup_detail5-3.jpg" alt="">
@@ -156,12 +162,11 @@ $RECENT_DATE = $RECENT_DATE;
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_staff&cast.png" alt="STAFF&CAST" class="staffcast"></h3>
 						<div class="lineUp-detail-text">
 							<dl class="lineUp-detail-dl">
-
 								<dt><img src="../../common/images/lineup_staff.png" alt="STAFF" class="staff"></dt>
 								<dd>
 									原作：けものフレンズプロジェクト / コンセプトデザイン：吉崎観音
 									<br>
-									監督：たつき / シリーズ構成／脚本：田辺茂範 / 音響監督：阿部信行
+									監督：たつき / シリーズ構成・脚本：田辺茂範 / 音響監督：阿部信行
 									<br>
 									作画監督：伊佐佳久 / 美術監督：白水優子 / 音楽：立山秋航
 									<br>
@@ -169,13 +174,27 @@ $RECENT_DATE = $RECENT_DATE;
 								</dd>
 								<dt><img src="../../common/images/lineup_cast.png" alt="CAST" class="cast"></dt>
 								<dd class="small">
-									かばん：内田 彩 / サーバル：尾崎由香 / フェネック：本宮佳奈
+									サーバル：尾崎由香 / フェネック：本宮佳奈 / アライグマ：小野早稀<br>
+									かばん：内田 彩<br>
 									<br>
-									アライグマ：小野早稀 / ロイヤルペンギン：佐々木未来 
+									PPP（Penguins Performance Project“ペパプ”）<br>
+									ロイヤルペンギン：佐々木未来 / コウテイペンギン：根本流風<br>
+									ジェンツーペンギン：田村響華 / イワトビペンギン：相羽あいな<br>
+									フンボルトペンギン：築田行子<br>
 									<br>
-									コウテイペンギン：根本流風 / ジェンツーペンギン：田村響華
-									<br>
-									イワトビペンギン：相羽あいな / フンボルトペンギン：築田行子 / ほか
+									コツメカワウソ：近藤玲奈 / ジャガー：津田美波<br>
+									アルパカ・スリ：藤井ゆきよ / アメリカビーバー：下地紫野<br>
+									オグロプレーリードッグ：大空直美 / ライオン：本多真梨子<br>
+									ヘラジカ：國府田マリ子 / アフリカオオコノハズク：三上枝織<br>
+									ギンギツネ：相坂優歌 / タイリクオオカミ：伊藤かな恵<br>
+									アミメキリン：野中藍 / ヒグマ：松井恵理子<br>
+									リカオン：立花理香 / キンシコウ：和多田美咲<br>
+									ワシミミズク：上原あかり / フォッサ：七海映子<br>
+									インドゾウ：幸野ゆりあ / アクシスジカ：早乃香織<br>
+									キタキツネ：三森すずこ / スナネコ：みゆはん<br>
+									マーゲイ：山下まみ / カバ：照井春佳<br>
+									トキ：金田朋子 / ツチノコ：小林ゆう<br>
+									(発表順)
 								</dd>
 							</dl>
 						</div>
