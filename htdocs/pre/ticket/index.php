@@ -88,7 +88,7 @@ $RECENT_DATE = $RECENT_DATE;
 				</li>
 				<li>
 					<h3 class="info-list_ttl">
-						<img src="../common/images/info_hl06.png" alt="公演に関するお問い合わせ">
+						<img src="../common/images/info_hl07.png" alt="公演に関するお問い合わせ">
 					</h3>
 					<p class="info-list_text">
 						<span class="text__inq">
