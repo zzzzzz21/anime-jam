@@ -1,125 +1,52 @@
+<?php
+define("PAGE_TITLE", "Wake Up, Girls!新章｜LINEUP");
+require_once "../../_config.php";
+$artist_cd = $artist_cd;
+$RECENT_DATE = $RECENT_DATE;
+?>
 <!DOCTYPE html>
-<html lang="ja"><head>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<?php require_once "../../include/common/gtm-head.inc"; ?>
+<!-- End Google Tag Manager -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LINE UP｜アニメJAM 2017</title>
 <meta name="robots" content="index,follow">
-<meta name="description" content="#TODO">
-<meta name="keywords" content="アニメJAM,ANIME JAM,アニメJAM 2017,テレビ東京,アニメ,幕張メッセ,イベント">
 <meta name="format-detection" content="telephone=no">
 
+<title><?php echo PAGE_TITLE?>｜<?php include "../../include/common/title.inc"?></title>
+<meta name="description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "../../include/common/description.inc";?>">
+<meta name="keywords" content="<?php echo PAGE_TITLE;?>,<?php include "../../include/common/keywords.inc";?>">
+
 <!-- icon -->
-<link rel="shortcut icon" href="../../common/images/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="../../common/images/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" href="../../common/images/apple-touch-icon.png">
+<?php require_once "../../include/html/head_favicon.inc"; ?>
 
 <!--ogp -->
-<meta property="og:title" content="アニメJAM 2017 オフィシャルサイト">
-<meta property="og:description" content="#TODO">
-<meta property="og:image" content="http://www.missmakinomiya.com/common/images/ogimage.jpg">
-<meta property="og:url" content="http://anime-jam.com/lineup-detail/">
-<meta property="og:site_name" content="アニメJAM 2017 オフィシャルサイト">
+<meta property="og:title" content="<?php echo PAGE_TITLE?>｜<?php include "../../include/common/title.inc";?>">
+<meta property="og:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "../../include/common/description.inc";?>">
 <meta property="og:type" content="website">
+<?php require_once "../../include/common/og.inc";?>
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@animejam_staff">
-<meta name="twitter:creator" content="@animejam_staff">
-<meta name="twitter:title" content="アニメJAM 2017 オフィシャルサイト">
-<meta name="twitter:description" content="アニメJAM 2017 オフィシャルサイト">
-<meta name="twitter:url" content="http://anime-jam.com/lineup-detail/">
-<meta name="twitter:image" content="http://anime-jam.com/common/images/img_card.jpg">
+<!-- twitter_card -->
+<?php require_once "../../include/common/twitter_card.inc";?>
 
 <!-- css -->
-<link rel="stylesheet" href="../../common/css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet"> 
+<?php require_once "../../include/html/head_css.php";?>
 
 <!-- js -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!--[if lt IE 9]>
-<script src="../../common/js/html5.js"></script>
-<![endif]-->
-<script src="../../common/js/script.js"></script>
+<?php require_once "../../include/html/head_js.php";?>
 
 </head>
 
 
 <body id="lineup-detail" class="second lineupWug">
+<!-- Google Tag Manager -->
+<?php require_once "../../include/common/gtm-body.inc"; ?>
+<!-- End Google Tag Manager -->
 
-	<!-- ▼ header -->
-	<header id="header">
-		<nav class="header-nav">
-			<h1 class="nav-h1">
-				<a href="/">
-					<img src="../../common/images/logo.png" alt="アニメJAM 2017" class="pc_con">
-					<img src="../../common/images/logo_sp.png" alt="アニメJAM 2017" class="sp_con">
-				</a>
-			</h1>
-			<div class="nav-btn-wrapper sp_con">
-				<div class="nav-btn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-			<ul class="nav-ul">
-				<li>
-					<a href="/" >
-						<img src="../../common/images/nb01_sp.jpg" alt="TOP" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_info">
-					<a href="/info/">
-						<img src="../../common/images/nb02_sp.jpg" alt="EVENT INFO" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_cast">
-					<a href="/cast/">
-						<img src="../../common/images/nb03_sp.jpg" alt="EVENT CAST" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_news">
-					<a href="/news/">
-						<img src="../../common/images/nb04_sp.jpg" alt="NEWS" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_lineup is-current">
-					<a href="/lineup/">
-						<img src="../../common/images/nb05_sp.jpg" alt="LINEUP" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_ticket">
-					<a href="/ticket/">
-						<img src="../../common/images/nb06_sp.jpg" alt="TICKET" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_movie">
-					<a href="#TODO">
-						<img src="../../common/images/nb07_sp.jpg" alt="MOVIE" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_special">
-					<a href="#TODO">
-						<img src="../../common/images/nb08_sp.jpg" alt="SPECIAL" class="sp_con">
-					</a>
-				</li>
-				<li class="nav-ul_goods">
-					<a href="#TODO">
-						<img src="../../common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
-					</a>
-				</li>
-			</ul>
-			<ul class="nav-sns">
-				<li>
-					<a href="http://www.facebook.com/share.php?u=http://anime-jam.com/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/common/images/fb-icon.png" alt="facebook"></a>
-				</li>
-				<li>
-					<a target="_blank" href="http://twitter.com/share?url=http://anime-jam.com/&text=TOP&hashtags=アニメJAM #TODO"><img src="/common/images/twi-icon.png" alt="Twitter"></a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<!-- ▲ header -->
-
+<?php require_once "../../include/html/header.php"; ?>
 
 	<!-- ▼ contents -->
 	<div id="contents">
@@ -230,13 +157,13 @@
 
 								<dt><img src="../../common/images/lineup_staff.png" alt="STAFF" class="staff"></dt>
 								<dd>原作・脚本：Green Leaves / 監督：板垣伸<br>
-								キャラクター原案：近岡直 / キャラクターデザイン：菅原美幸<br>
-								音楽：神前暁 MONACA / 音楽制作：DIVE II entertainment<br>
-								アニメーション制作：ミルパンセ</dd>
+									キャラクター原案：近岡直 / キャラクターデザイン：菅原美幸<br>
+									音楽：神前暁 MONACA / 音楽制作：DIVE II entertainment<br>
+									アニメーション制作：ミルパンセ</dd>
 								<dt><img src="../../common/images/lineup_cast.png" alt="CAST" class="cast"></dt>
 								<dd class="small">島田真夢：吉岡茉祐 / 林田藍里：永野愛理 / 片山実波：田中美海<br>
-								七瀬佳乃：青山吉能 / 久海菜々美：山下七海 / 菊間夏夜：奥野香耶<br>
-								岡本未夕：高木美佑 / ほか</dd>
+									七瀬佳乃：青山吉能 / 久海菜々美：山下七海 / 菊間夏夜：奥野香耶<br>
+									岡本未夕：高木美佑 / ほか</dd>
 							</dl>
 						</div>
 					</div>
@@ -249,15 +176,7 @@
 	</div>
 	<!-- ▲ contents -->
 
-	<!-- ▼ footer -->
-	<footer id="footer">
-		<p class="footer-copy">
-			&copy;T-ARTS / syn Sophia / テレビ東京 / IPP製作委員会　<br class="sp_con">&copy;Green Leaves / Wake Up, Girls！製作委員会　<br class="sp_con">&copy;サイトウケンジ・奈央晃徳 / KADOKAWA / トリニティセブン製作委員
-			<br>
-			&copy;けものフレンズプロジェクトA　<br class="sp_con">&copy;三星めがね・COMICメテオ / 恋愛暴君製作委員会
-		</p>
-	</footer>
-	<!-- ▲ footer -->
+<?php require_once "../../include/html/footer.php"; ?>
 
 </body>
 </html>

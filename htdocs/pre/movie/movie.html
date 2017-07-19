@@ -40,6 +40,20 @@
 <![endif]-->
 <script src="../common/js/script.js"></script>
 
+<!-- colorbox -->
+<link rel="stylesheet" href="../common/css/colorbox.css">
+<script src="../common/js/jquery.colorbox-min.js"></script>
+<script>
+	$(document).ready(function(){
+		if($(window).width() > 767){
+			$(".youtube").colorbox({iframe:true, innerWidth:700, innerHeight:400, opacity :0.7});
+		}else{
+			$(".youtube").colorbox.remove();
+		}
+				
+	});	
+</script>
+
 </head>
 
 
@@ -139,21 +153,6 @@
 		</div>
 		
 	</div>
-
-	<!-- colorbox -->
-	<link rel="stylesheet" href="../common/css/colorbox.css">
-	<script src="../common/js/jquery.colorbox-min.js"></script>
-	<script>
-	$(document).ready(function(){
-		if($(window).width() > 767){
-			$(".youtube").colorbox({iframe:true, innerWidth:700, innerHeight:400, opacity :0.7});
-		}else{
-			$(".youtube").colorbox.remove();
-		}
-				
-	});	
-</script>
-
 	<!-- ▲ contents -->
 	
 	

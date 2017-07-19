@@ -8,3 +8,6 @@
 /*.zip
 /htdocs/pre/index.php_2016
 /htdocs/pre/cast/index.php_2016
+/htdocs/pre/ticket/*.php_
+/htdocs/pre/movie/index.php_2016
+/htdocs/pre/ticket/index.php_2016
