@@ -100,7 +100,7 @@ $RECENT_DATE = $RECENT_DATE;
 						<img src="../../common/images/lineup_detail_live5.png" alt="smileY inc.">
 					</div>
 					<div class="detail-middle_img">
-						<img src="../../common/images/lineup_detail5-3.jpg" alt="">
+						<img src="../../common/images/live4_2.jpg" alt="">
 					</div>
 				</div>
 				<div class="lineUp-detail-bottom clearfix">

@@ -64,13 +64,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<p class="info-list_text">
 						一般指定：各7,800円（税込/全席指定）
 						<br>
-						ＪＴＢオフィシャルツアーパック
-						<br>
 						<span class="text__caution">
-							※ホテル宿泊プランや限定グッズ、イベントグッズ事前申込などの
-							<br>
-							特典がついたスペシャルパック
-							<br>
 							※枚数制限：お一人様2枚まで
 						</span>
 					</p>

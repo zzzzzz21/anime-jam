@@ -3,3 +3,4 @@
 <script src="/common/js/html5.js"></script>
 <![endif]-->
 <script src="/common/js/script.js"></script>
+<script src="/common/js/jquery.matchHeight-min.js"></script>

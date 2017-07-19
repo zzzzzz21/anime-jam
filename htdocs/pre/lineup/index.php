@@ -83,6 +83,9 @@ $RECENT_DATE = $RECENT_DATE;
 					</a>
 				</li>
 			</ul>
+			<div class="andMore">
+				<img src="../common/images/cast_andmore.png" alt="and more...">
+			</div>
 		</div>
 	</div>
 	<!-- ▲ contents -->
