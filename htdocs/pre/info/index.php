@@ -105,7 +105,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<h3 class="info-list_ttl">
 						<img src="../common/images/info_hl04.png" alt="出演者">
 					</h3>
-					<a href="/cast.html" class="acter-btn">
+					<a href="../cast/" class="acter-btn">
 						<img src="../common/images/info_bo02.png" alt="出演者についてはこちらをご覧ください">
 					</a>
 					<h3 class="info-list_ttl info-list_ttlSub">
@@ -139,7 +139,7 @@ $RECENT_DATE = $RECENT_DATE;
 						</a>
 					</p>
 
-					<a href="/ticket.html" class="info-btn">
+					<a href="../ticket/" class="info-btn">
 						<img src="../common/images/info_bo01.png" alt="チケットページはこちら">
 					</a>
 				</li>
