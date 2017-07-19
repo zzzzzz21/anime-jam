@@ -17,55 +17,55 @@
 			<ul class="nav-ul">
 				<li>
 					<a href="/" class="is-active">
-						<img src="/common/images/sp/nb01.jpg" alt="TOP" class="sp_con">
+						<img src="/common/images/nb01_sp.jpg" alt="TOP" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="/info.html" class="is-active">
+					<a href="/info/" class="is-active">
 						<img src="/common/images/hb01_off.png" alt="EVENT INFO" class="pc_con">
-						<img src="/common/images/sp/nb02.jpg" alt="EVENT INFO" class="sp_con">
+						<img src="/common/images/nb02_sp.jpg" alt="EVENT INFO" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/cast/" class="is-active">
 						<img src="/common/images/hb02_off.png" alt="EVENT CAST" class="pc_con">
-						<img src="/common/images/sp/nb03.jpg" alt="EVENT CAST" class="sp_con">
+						<img src="/common/images/nb03_sp.jpg" alt="EVENT CAST" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/news/" class="is-active">
 						<img src="/common/images/hb03_off.png" alt="NEWS" class="pc_con">
-						<img src="/common/images/sp/nb04.jpg" alt="NEWS" class="sp_con">
+						<img src="/common/images/nb04_sp.jpg" alt="NEWS" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/lineup/" class="is-active">
 						<img src="/common/images/hb04_off.png" alt="LINEUP" class="pc_con">
-						<img src="/common/images/sp/nb05.jpg" alt="LINEUP" class="sp_con">
+						<img src="/common/images/nb05_sp.jpg" alt="LINEUP" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/ticket/" class="is-active">
 						<img src="/common/images/hb05_off.png" alt="TICKET" class="pc_con">
-						<img src="/common/images/sp/nb06.jpg" alt="TICKET" class="sp_con">
+						<img src="/common/images/nb06_sp.jpg" alt="TICKET" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/movie/" class="is-active">
 						<img src="/common/images/hb06_off.png" alt="MOVIE" class="pc_con">
-						<img src="/common/images/sp/nb07.jpg" alt="MOVIE" class="sp_con">
+						<img src="/common/images/nb07_sp.jpg" alt="MOVIE" class="sp_con">
 					</a>
 				</li>
 				<li>
-					<a href="" class="is-active">
+					<a href="/special/" class="is-active">
 						<img src="/common/images/hb07_off.png" alt="SPECIAL" class="pc_con">
-						<img src="/common/images/sp/nb08.jpg" alt="MOVIE" class="sp_con">
+						<img src="/common/images/nb08_sp.jpg" alt="MOVIE" class="sp_con">
 					</a>
 				</li>
 				<li>
 					<a href="" class="is-active">
 						<img src="/common/images/hb08_off.png" alt="GOODS&FOOD" class="pc_con">
-						<img src="/common/images/sp/nb09.jpg" alt="GOODS&FOOD" class="sp_con">
+						<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
 					</a>
 				</li>
 			</ul>

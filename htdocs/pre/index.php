@@ -1,41 +1,45 @@
 <?php
 define("PAGE_TITLE", "TOP");
-require_once(dirname(__FILE__) . "/_config.php");
+require_once "_config.php";
 $artist_cd = $artist_cd;
 $RECENT_DATE = $RECENT_DATE;
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Google Tag Manager -->
+<?php require_once "include/common/gtm-head.inc"; ?>
+<!-- End Google Tag Manager -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index,follow">
 <meta name="format-detection" content="telephone=no">
 
 <title><?php echo PAGE_TITLE?>｜<?php include "include/common/title.inc"?></title>
-<meta name="description" content="<?php echo PAGE_TITLE;?>ページです。<?php include 'include/common/description.inc';?>">
-<meta name="keywords" content="<?php echo PAGE_TITLE;?>,<?php include 'include/common/keywords.inc';?>">
+<meta name="description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "include/common/description.inc";?>">
+<meta name="keywords" content="<?php echo PAGE_TITLE;?>,<?php include "include/common/keywords.inc";?>">
 
 <!-- icon -->
 <?php require_once "include/html/head_favicon.inc"; ?>
 
 <!--ogp -->
-<meta property="og:title" content="<?php echo PAGE_TITLE?>｜<?php include(dirname(__FILE__) . "/include/common/title.inc");?>">
-<meta property="og:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include(dirname(__FILE__) . '/include/common/description.inc');?>">
+<meta property="og:title" content="<?php echo PAGE_TITLE?>｜<?php include "include/common/title.inc";?>">
+<meta property="og:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "include/common/description.inc";?>">
 <meta property="og:type" content="website">
-<?php require_once(dirname(__FILE__) . "/include/common/og.inc");?>
+<?php require_once "include/common/og.inc";?>
 
 <!-- twitter_card -->
-<?php require_once(dirname(__FILE__) . "/include/common/twitter_card.inc");?>
+<?php require_once "include/common/twitter_card.inc";?>
 
 <!-- css -->
-<?php require_once(dirname(__FILE__) . "/include/html/head_css.php");?>
+<?php require_once "include/html/head_css.php";?>
 
 <!-- js -->
-<?php require_once(dirname(__FILE__) . "/include/html/head_js.php");?>
+<?php require_once "include/html/head_js.php";?>
 
 <!-- colorbox -->
-<?php require_once(dirname(__FILE__) . "/include/html/head_js-colorbox.php");?>
+<?php require_once "include/html/head_js-colorbox.php";?>
 
 
 <!-- simplyscroll -->
@@ -55,56 +59,279 @@ $RECENT_DATE = $RECENT_DATE;
 
 
 <body id="top">
-
-<?php require_once(dirname(__FILE__) . "/include/html/header.php"); ?>
+<!-- Google Tag Manager -->
+<?php require_once "include/common/gtm-body.inc"; ?>
+<!-- End Google Tag Manager -->
+<?php require_once "include/html/header.php"; ?>
 	
 	<!-- ▼ contents -->
-
 	<div id="contents">
-		<div class="contentsInner">
-			<div class="contentsInner-spVisual sp_con">
-				<img src="common/images/sp/top_sp.jpg" alt="">
-			</div>
-			<div class="contentsInner-ticket">
-				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター" class="pc_con">
-				<img src="common/images/flame_ticket_sp.jpg" alt="チケット受付中 2017/12/24 舞浜アンフィシアター" class="sp_con">
-			</div>
+		<!-- PCとSPにてコンテンツの表示順が違うため、PCとSPのソースを分けます -->
+		<!-- PC版 -->
+		<div class="contentsInner pc_con">
 			<div class="contentsInner-news">
-				<ul class="contentsInner-news_tl">
-					<li class="news_tl-li">
-						<a href="">
-							<div class="news_tl-img">
-								<img src="common/images/top-news_img01.jpg" alt="">
-							</div>
-							<div class="news_tl-text">
-								<p class="tl-text_date">2017.6.20</p>
-								<p class="tl-text_detail">テレビ東京の人気アニメが大集合！「アニメJAM2017」1Days開催決定！テキストテキストテキストテキスト</p>
-							</div>
-						</a>
-					</li>
-					<li class="news_tl-li">
-						<div class="news_tl-img">
-							<img src="common/images/top-news_img01.jpg" alt="">
-						</div>
-						<div class="news_tl-text">
-							<p class="tl-text_date">2017.6.20</p>
-							<p class="tl-text_detail">JTBオフィシャルツアースペシャルパックの受付を開始しました！</p>
-						</div>
-					</li>
-					<li class="news_tl-li">
-						<div class="news_tl-img">
-							<img src="common/images/top-news_img01.jpg" alt="">
-						</div>
-						<div class="news_tl-text">
-							<p class="tl-text_date">2017.6.20</p>
-							<p class="tl-text_detail">JTBオフィシャルツアースペシャルパックの受付を開始しました！</p>
-						</div>
-					</li>
-				</ul>
+				<?php
+				/* ====================================================================== */
+
+				/********************************************/
+				/* ニュース一覧 */
+				/********************************************/
+
+				//詳細リンクURL
+				$link_url = "news/detail.php";
+
+				$param = array(
+					'mode'=> 18,
+
+					//アーティストコード
+					'artist_cd'	=> $artist_cd,
+					'limit'		=> '4',
+
+					//'year'	=> 表示年
+					'year'		=> $_REQUEST['year'],
+					//'page'	=> 表示するページ番号
+					'page'		=> $_REQUEST['page'],
+					//環境設定
+					// production => 本番
+					// test => テスト
+					'env'=> $env,
+				);
+
+				// 文字コード
+				// UTF-8
+				// EUC-JP
+				// SJIS
+				$enc = 'UTF-8';
+
+
+				/*********************************/
+
+				$SCRIPT_URL = 'http://api.avex.jp/api_pc.php';
+				$param['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+				$url = $SCRIPT_URL . '?' . http_build_query($param);
+
+				if ( isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] == 'on' ) {
+					$protocol = 'https://';
+				} else {
+					$protocol = 'http://';
+				}
+				$self = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+				$self_array = explode('?', $self);
+				$self = $self_array[0];
+
+				if($xml = @simplexml_load_file($url)){
+					if(isset($xml->code)){
+						print "<!-- error : ".$xml->code." -->\n";
+					}else{
+						$html = "";
+
+						$select_year = '';
+						if (isset($xml->years)) {
+							$select_year = $xml->years->select_year;
+						}
+
+						if(isset($xml->item)){
+							$html .= "<ul class=\"contentsInner-news_tl\">\n";
+							foreach($xml->item as $item){
+								$id = $item->id;
+								$title = $item->title;
+								$contents = $item->contents;
+								$date = $item->date;
+								$date_dot = str_replace("/", ".", $date);
+								$date_comma = str_replace("/", ",", $date);
+
+								//リンクURL設定
+								list($uri, $param) = explode("?", $link_url);
+								if($param != "") $param .= "&";
+								$param .= "id=".$id;
+								$link = $uri."?".$param;
+
+								$html .= "<li class=\"news_tl-li\">\n";	//▼<li>
+								$html .= "<a href=\"".$link."\">\n";			//▼<a href="">
+								if($xml->layout->layout_type == 1){
+									$html .= "<div class=\"news_tl-img\">\n";
+									$html .= "<img src=\"" . $item->thumbnail_image . "\" alt=\"$title\">\n";	//サムネイル
+									$html .= "</div>\n";
+									} else {
+									$html .= "<div class=\"news_tl-img\">\n";
+									$html .= "<img src=\"/common/imgaes/top-news_img01.jpg\" alt=\"\">\n";	//サムネイル
+									$html .= "</div>\n";
+								}
+								$html .= "<div class=\"news_tl-text\">\n";
+								$html .= "<p class=\"tl-text_date\">".$date."</p>\n";			//<dt>日付</dt>
+								$html .= "<p class=\"tl-text_detail\">".$title."</p>\n";			//<dd>タイトル</dd>
+								$html .= "</div>\n";
+								$html .= "</a>\n";							//▲</a>
+								$html .= "</li>\n";						//▲</li>
+							}
+							$html .= "</ul>\n";
+						}
+						print out($html, (string)$xml->carrier);
+					}
+				}else{
+					print "<!-- error : XMLが取得できませんでした。 -->\n";
+				}
+
+				?>
+
+
+				<?php
+				/**
+ * エラーコード一覧
+ * 0 : アーティストコード未指定
+ * 1 : 処理モード指定
+ * 2 : ENV
+ * 3 : id未指定
+ */
+				?>
 			</div>
 			<div class="contentsInner-twitter">
 				<div class="contentInner-twitter_content">
-					<a class="twitter-timeline" data-width="500" data-height="320" data-chrome="transparent nofooter noheader noscrollbar" data-link-color="#FFF" href="https://twitter.com/animejam_staff">Tweets by animejam_staff</a> 
+					<a class="twitter-timeline" data-width="500" data-height="320" data-theme="dark" data-chrome="transparent nofooter noheader noscrollbar" data-link-color="#FFF" href="https://twitter.com/animejam_staff">Tweets by animejam_staff</a> 
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<div class="contentsInner-ticket">
+				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター">
+			</div>
+		</div>
+		<div class="contentsInnner-movie pc_con">
+			<div class="contentsInner-movie_content">
+				<a href="" class="movie_content-btn"><img src="common/images/youtube_button.png" alt="youtube"></a>
+			</div>
+		</div>
+		<!-- SP版 -->
+		<div class="contentsInner sp_con">
+			<div class="contentsInner-spVisual sp_con">
+				<img src="common/images/top_kv.jpg" alt="">
+			</div>
+			<div class="contentsInner-ticket">
+				<img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター">
+			</div>
+			<div class="contentsInner-news">
+				<?php
+				/* ====================================================================== */
+
+				/********************************************/
+				/* ニュース一覧 */
+				/********************************************/
+
+				//詳細リンクURL
+				$link_url = "news/detail.php";
+
+				$param = array(
+					'mode'=> 18,
+
+					//アーティストコード
+					'artist_cd'	=> $artist_cd,
+					'limit'		=> '4',
+
+					//'year'	=> 表示年
+					'year'		=> $_REQUEST['year'],
+					//'page'	=> 表示するページ番号
+					'page'		=> $_REQUEST['page'],
+					//環境設定
+					// production => 本番
+					// test => テスト
+					'env'=> $env,
+				);
+
+				// 文字コード
+				// UTF-8
+				// EUC-JP
+				// SJIS
+				$enc = 'UTF-8';
+
+
+				/*********************************/
+
+				$SCRIPT_URL = 'http://api.avex.jp/api_pc.php';
+				$param['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+				$url = $SCRIPT_URL . '?' . http_build_query($param);
+
+				if ( isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] == 'on' ) {
+					$protocol = 'https://';
+				} else {
+					$protocol = 'http://';
+				}
+				$self = $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+				$self_array = explode('?', $self);
+				$self = $self_array[0];
+
+				if($xml = @simplexml_load_file($url)){
+					if(isset($xml->code)){
+						print "<!-- error : ".$xml->code." -->\n";
+					}else{
+						$html = "";
+
+						$select_year = '';
+						if (isset($xml->years)) {
+							$select_year = $xml->years->select_year;
+						}
+
+						if(isset($xml->item)){
+							$html .= "<ul class=\"contentsInner-news_tl\">\n";
+							foreach($xml->item as $item){
+								$id = $item->id;
+								$title = $item->title;
+								$contents = $item->contents;
+								$date = $item->date;
+								$date_dot = str_replace("/", ".", $date);
+								$date_comma = str_replace("/", ",", $date);
+
+								//リンクURL設定
+								list($uri, $param) = explode("?", $link_url);
+								if($param != "") $param .= "&";
+								$param .= "id=".$id;
+								$link = $uri."?".$param;
+
+								$html .= "<li class=\"news_tl-li\">\n";	//▼<li>
+								$html .= "<a href=\"".$link."\">\n";			//▼<a href="">
+								if($xml->layout->layout_type == 1){
+									$html .= "<div class=\"news_tl-img\">\n";
+									$html .= "<img src=\"" . $item->thumbnail_image . "\" alt=\"$title\">\n";	//サムネイル
+									$html .= "</div>\n";
+								} else {
+									$html .= "<div class=\"news_tl-img\">\n";
+									$html .= "<img src=\"/common/imgaes/top-news_img01.jpg\" alt=\"\">\n";	//サムネイル
+									$html .= "</div>\n";
+								}
+								$html .= "<div class=\"news_tl-text\">\n";
+								$html .= "<p class=\"tl-text_date\">".$date."</p>\n";			//<dt>日付</dt>
+								$html .= "<p class=\"tl-text_detail\">".$title."</p>\n";			//<dd>タイトル</dd>
+								$html .= "</div>\n";
+								$html .= "</a>\n";							//▲</a>
+								$html .= "</li>\n";						//▲</li>
+							}
+							$html .= "</ul>\n";
+						}
+						print out($html, (string)$xml->carrier);
+					}
+				}else{
+					print "<!-- error : XMLが取得できませんでした。 -->\n";
+				}
+
+				?>
+
+
+				<?php
+				/**
+ * エラーコード一覧
+ * 0 : アーティストコード未指定
+ * 1 : 処理モード指定
+ * 2 : ENV
+ * 3 : id未指定
+ */
+				?>
+			</div>
+			<div class="contentsInnner-movie sp_con">
+				<div class="contentsInner-movie_content">
+					<a href="" class="movie_content-btn"><img src="common/images/youtube_button.png" alt="youtube"></a>
+				</div>
+			</div>
+			<div class="contentsInner-twitter">
+				<div class="contentInner-twitter_content">
+					<a class="twitter-timeline" data-width="500" data-height="320" data-theme="dark" data-chrome="transparent nofooter noheader noscrollbar" data-link-color="#FFF" href="https://twitter.com/animejam_staff">Tweets by animejam_staff</a> 
 					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
 			</div>
@@ -112,7 +339,7 @@ $RECENT_DATE = $RECENT_DATE;
 	</div>
 	<!-- ▲ contents -->
 
-<?php require_once(dirname(__FILE__) . "/include/html/footer.php"); ?>
+<?php require_once "include/html/footer.php"; ?>
 
 </body>
 </html>
