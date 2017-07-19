@@ -490,12 +490,14 @@ footer .inner,
 	width: 984px;
 }
 #news #contents .newsList li {
+	box-sizing: border-box;
 	background: url(../images/news_index_flame.png) left top no-repeat;
 	width: 268px;
 	height: 388px;
 	float: left;
 	display: inline-block;
 	margin-left: 90px;
+	padding: 4px 12px 0 4px;
 }
 #news #contents .newsList li:nth-child(3n+1) {
 	margin-left: 0;
@@ -504,14 +506,15 @@ footer .inner,
 	margin-top: 40px;
 }
 #news #contents .newsList li .newsList-data {
-	padding-left: 20px;
+	padding-left: 16px;
 	font-size: 16px;
 	font-weight: bold;
 }
 #news #contents .newsList li .newsList-img {
 	border: none;
 	display: block;
-	margin: 4px 0 0 4px;
+	margin: 0 0 4px;
+	max-width: 100%;
 }
 #news #contents .newsList li .newsList-text {
 	padding: 5px 10px 0;
@@ -611,9 +614,13 @@ footer .inner,
 		background: url(../images/news_index_flame_sp.png) left top no-repeat;
 		width: 304px;
 		height: 443px;
+		padding: 0;
 		background-size: 100%;
 		display: block;
 		float: none;
+	}
+	#news #contents .newsList a {
+		color: #fff;
 	}
 	#news #contents .newsList li:nth-child(1){
 		margin: 0 auto !important;
@@ -1307,12 +1314,12 @@ footer .inner,
 		width: 58.125%;
 		left: 0;
 		top: 21%;
+		z-index: 0;
 	}
 	#lineup-detail #contents .detailTop-logo {
 		width: 59.84375%;
 		left: auto;
 		right: 3%;
-		z-index: 2;
 	}
 	#lineup-detail #contents .lineUp-detail-h3 {
 		line-height: 41px;
@@ -1406,7 +1413,6 @@ footer .inner,
 		width: 59.84375%;
 		left: auto;
 		right: 3%;
-		z-index: 2;
 		top: 51%;
 	}
 	#lineup-detail.lineupWug #contents .detailTop-logo > img {
@@ -1428,7 +1434,6 @@ footer .inner,
 		width: 59.84375%;
 		left: auto;
 		right: 3%;
-		z-index: 2;
 		top: 48%;
 	}
 	#lineup-detail.lineupTr7 #contents .detailTop-logo > img {
@@ -1453,7 +1458,6 @@ footer .inner,
 		width: 59.84375%;
 		left: auto;
 		right: 3%;
-		z-index: 2;
 		top: 50%;
 	}
 	#lineup-detail.lineupKfr #contents .detailTop-logo > img {
@@ -1475,7 +1479,6 @@ footer .inner,
 		width: 59.84375%;
 		left: auto;
 		right: 3%;
-		z-index: 2;
 	}
 	#lineup-detail.lineupRen #contents .detailTop-logo > img {
 		width: 61.829653%;
