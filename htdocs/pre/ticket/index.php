@@ -59,7 +59,7 @@ $RECENT_DATE = $RECENT_DATE;
 			<ul class="info-list clearfix">
 				<li>
 					<h3 class="info-list_ttl">
-						<img src="../common/images/info_hl04.png" alt="チケット価格">
+						<img src="../common/images/info_hl11.png" alt="チケット価格">
 					</h3>
 					<p class="info-list_text">
 						一般指定：各7,800円（税込/全席指定）
@@ -71,7 +71,7 @@ $RECENT_DATE = $RECENT_DATE;
 				</li>
 				<li>
 					<h3 class="info-list_ttl">
-						<img src="../common/images/info_hl05.png" alt="チケット販売スケジュール">
+						<img src="../common/images/info_hl06.png" alt="チケット販売スケジュール">
 					</h3>
 					<p class="info-list_text">
 						<span class="text__schedule">
@@ -85,9 +85,6 @@ $RECENT_DATE = $RECENT_DATE;
 							2017年7月23日(日)21:00～<br class="sp_con">8月6日(日)23:59
 						</span>
 					</p>
-					<a href="../ticket/" class="info-btn">
-						<img src="../common/images/info_bo01.png" alt="チケット販売ページはこちら">
-					</a>
 				</li>
 				<li>
 					<h3 class="info-list_ttl">
@@ -104,7 +101,7 @@ $RECENT_DATE = $RECENT_DATE;
 						<span class="text__inq">
 							<em>【チケットに関するお問い合わせ】</em>
 							<br>
-							チケットぴあ　http://t.pia.jp/help/
+							チケットぴあ　<a href="http://t.pia.jp/help/" target="_blank">http://t.pia.jp/help/</a>
 						</span>
 						<span class="text__inq">
 							<em>【JTBオフィシャルツアースペシャル<br class="sp_con">パックに関するお問い合わせ】</em>
