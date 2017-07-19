@@ -212,76 +212,76 @@ footer .inner,
 	margin:0 0 0 23px;
 }
 /* グロナビメニューの挙動 */
-#header .nav-ul .nav-ul_info {
+#header .nav-ul #nav-ul_info {
 	background: url(../images/hb01_off.png) left top no-repeat;
 	width: 111px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_info:hover,
-#header .nav-ul .nav-ul_info.is-current {
+#header .nav-ul #nav-ul_info:hover,
+#header .nav-ul #nav-ul_info.is-current {
 	background: url(../images/hb01_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_cast {
+#header .nav-ul #nav-ul_cast {
 	background: url(../images/hb02_off.png) left top no-repeat;
 	width: 127px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_cast:hover,
-#header .nav-ul .nav-ul_cast.is-current {
+#header .nav-ul #nav-ul_cast:hover,
+#header .nav-ul #nav-ul_cast.is-current {
 	background: url(../images/hb02_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_news {
+#header .nav-ul #nav-ul_news {
 	background: url(../images/hb03_off.png) left top no-repeat;
 	width: 60px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_news:hover,
-#header .nav-ul .nav-ul_news.is-current{
+#header .nav-ul #nav-ul_news:hover,
+#header .nav-ul #nav-ul_news.is-current{
 	background: url(../images/hb03_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_lineup {
+#header .nav-ul #nav-ul_lineup {
 	background: url(../images/hb04_off.png) left top no-repeat;
 	width: 76px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_lineup:hover,
-#header .nav-ul .nav-ul_lineup.is-current {
+#header .nav-ul #nav-ul_lineup:hover,
+#header .nav-ul #nav-ul_lineup.is-current {
 	background: url(../images/hb04_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_ticket {
+#header .nav-ul #nav-ul_ticket {
 	background: url(../images/hb05_off.png) left top no-repeat;
 	width: 73px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_ticket:hover,
-#header .nav-ul .nav-ul_ticket.is-current {
+#header .nav-ul #nav-ul_ticket:hover,
+#header .nav-ul #nav-ul_ticket.is-current {
 	background: url(../images/hb05_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_movie {
+#header .nav-ul #nav-ul_movie {
 	background: url(../images/hb06_off.png) left top no-repeat;
 	width: 66px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_movie:hover,
-#header .nav-ul .nav-ul_movie.is-current  {
+#header .nav-ul #nav-ul_movie:hover,
+#header .nav-ul #nav-ul_movie.is-current  {
 	background: url(../images/hb06_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_special {
+#header .nav-ul #nav-ul_special {
 	background: url(../images/hb07_off.png) left top no-repeat;
 	width: 86px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_special:hover,
-#header .nav-ul .nav-ul_special.is-current  {
+#header .nav-ul #nav-ul_special:hover,
+#header .nav-ul #nav-ul_special.is-current  {
 	background: url(../images/hb07_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_goods {
+#header .nav-ul #nav-ul_goods {
 	background: url(../images/hb08_off.png) left top no-repeat;
 	width: 145px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_goodsl:hover,
-#header .nav-ul .nav-ul_goodsl.is-current {
+#header .nav-ul #nav-ul_goodsl:hover,
+#header .nav-ul #nav-ul_goodsl.is-current {
 	background: url(../images/hb08_on.png) left top no-repeat;
 }
 #header .nav-sns {
@@ -360,7 +360,7 @@ footer .inner,
 		right: 0;
 		top: 0;
 	}
-	#header .nav-ul .nav-ul_info {
+	#header .nav-ul #nav-ul_info {
 		background: none;
 	}
 	#header .nav-btn {
