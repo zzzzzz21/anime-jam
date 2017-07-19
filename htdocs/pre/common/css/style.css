@@ -212,76 +212,76 @@ footer .inner,
 	margin:0 0 0 23px;
 }
 /* グロナビメニューの挙動 */
-#header .nav-ul .nav-ul_info {
+#header .nav-ul #nav-ul_info {
 	background: url(../images/hb01_off.png) left top no-repeat;
 	width: 111px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_info:hover,
-#header .nav-ul .nav-ul_info.is-current {
+#header .nav-ul #nav-ul_info:hover,
+#header .nav-ul #nav-ul_info.is-current {
 	background: url(../images/hb01_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_cast {
+#header .nav-ul #nav-ul_cast {
 	background: url(../images/hb02_off.png) left top no-repeat;
 	width: 127px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_cast:hover,
-#header .nav-ul .nav-ul_cast.is-current {
+#header .nav-ul #nav-ul_cast:hover,
+#header .nav-ul #nav-ul_cast.is-current {
 	background: url(../images/hb02_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_news {
+#header .nav-ul #nav-ul_news {
 	background: url(../images/hb03_off.png) left top no-repeat;
 	width: 60px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_news:hover,
-#header .nav-ul .nav-ul_news.is-current{
+#header .nav-ul #nav-ul_news:hover,
+#header .nav-ul #nav-ul_news.is-current{
 	background: url(../images/hb03_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_lineup {
+#header .nav-ul #nav-ul_lineup {
 	background: url(../images/hb04_off.png) left top no-repeat;
 	width: 76px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_lineup:hover,
-#header .nav-ul .nav-ul_lineup.is-current {
+#header .nav-ul #nav-ul_lineup:hover,
+#header .nav-ul #nav-ul_lineup.is-current {
 	background: url(../images/hb04_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_ticket {
+#header .nav-ul #nav-ul_ticket {
 	background: url(../images/hb05_off.png) left top no-repeat;
 	width: 73px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_ticket:hover,
-#header .nav-ul .nav-ul_ticket.is-current {
+#header .nav-ul #nav-ul_ticket:hover,
+#header .nav-ul #nav-ul_ticket.is-current {
 	background: url(../images/hb05_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_movie {
+#header .nav-ul #nav-ul_movie {
 	background: url(../images/hb06_off.png) left top no-repeat;
 	width: 66px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_movie:hover,
-#header .nav-ul .nav-ul_movie.is-current  {
+#header .nav-ul #nav-ul_movie:hover,
+#header .nav-ul #nav-ul_movie.is-current  {
 	background: url(../images/hb06_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_special {
+#header .nav-ul #nav-ul_special {
 	background: url(../images/hb07_off.png) left top no-repeat;
 	width: 86px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_special:hover,
-#header .nav-ul .nav-ul_special.is-current  {
+#header .nav-ul #nav-ul_special:hover,
+#header .nav-ul #nav-ul_special.is-current  {
 	background: url(../images/hb07_on.png) left top no-repeat;
 }
-#header .nav-ul .nav-ul_goods {
+#header .nav-ul #nav-ul_goods {
 	background: url(../images/hb08_off.png) left top no-repeat;
 	width: 145px;
 	height: 16px;
 }
-#header .nav-ul .nav-ul_goodsl:hover,
-#header .nav-ul .nav-ul_goodsl.is-current {
+#header .nav-ul #nav-ul_goodsl:hover,
+#header .nav-ul #nav-ul_goodsl.is-current {
 	background: url(../images/hb08_on.png) left top no-repeat;
 }
 #header .nav-sns {
@@ -360,7 +360,7 @@ footer .inner,
 		right: 0;
 		top: 0;
 	}
-	#header .nav-ul .nav-ul_info {
+	#header .nav-ul #nav-ul_info {
 		background: none;
 	}
 	#header .nav-btn {
@@ -409,11 +409,13 @@ footer .inner,
 #footer {
 	color: #FFF;
 	width: 100%;
-	height: 50px;
 	font-size: 10px;
 	text-align: center;
-	padding-top: 10px;
+	padding: 10px 0;
 	box-sizing: border-box;
+}
+#footer p + p {
+	margin-top: 1em;
 }
 @media screen and (max-width: 767px) {
 	#footer {
@@ -490,6 +492,7 @@ footer .inner,
 	width: 984px;
 }
 #news #contents .newsList li {
+	box-sizing: border-box;
 	width: 268px;
 	float: left;
 	display: inline-block;
@@ -514,12 +517,17 @@ footer .inner,
 #news #contents .newsList li .newsList-wrapper {
 	background: url(../images/news_index_flame02.png) left top repeat-y;
 	margin-top: -68px;
+	padding: 0 12px 0 4px;
 }
 #news #contents .newsList li:nth-child(3n+1) {
 	margin-left: 0;
 }
 #news #contents .newsList li:nth-child(n+4) {
 	margin-top: 40px;
+}
+#news #contents .newsList li .newsList-wrapper a:link,
+#news #contents .newsList li .newsList-wrapper a:visited {
+	color: #fff;
 }
 #news #contents .newsList li .newsList-data {
 	padding-left: 20px;
@@ -531,7 +539,7 @@ footer .inner,
 #news #contents .newsList li .newsList-img {
 	border: none;
 	display: block;
-	margin: 0 0 0 4px;
+	max-width: 100%;
 }
 #news #contents .newsList li .newsList-text {
 	padding: 0px 10px;
@@ -683,6 +691,7 @@ footer .inner,
 		background-size: 100%;
 		margin-top: -36px;
 		width: 308px;
+		padding: 0;
 	}
 	#news #contents .newsList li:nth-child(1){
 		margin: 0 auto !important;
@@ -1102,6 +1111,10 @@ footer .inner,
 #lineup #contents .lineupList li:nth-child(n+4) {
 	margin-top: 10px;
 }
+#lineup #contents .andMore {
+	text-align: center;
+	padding: 82px 0;
+}
 @media screen and (max-width: 767px) {
 	#lineup #contents {
 		padding-bottom: 30px;
@@ -1213,6 +1226,13 @@ footer .inner,
 	right:0;
 	left:0;
 	margin: auto auto;
+}
+#lineup-detail #contents .detail-middle_text .info {
+	position: absolute;
+	top: 300px;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 #lineup-detail #contents .detail-middle_img {
 	float: left;
@@ -1537,6 +1557,9 @@ footer .inner,
 	#lineup-detail.lineupKfr #contents .detail-middle_text > img {
 		width: 258px;
 	}
+	#lineup-detail #contents .detail-middle_text .info {
+		top: 80px;
+	}
 	/* 個別設定(恋愛暴君) */
 	#lineup-detail.lineupRen #contents .detailTop-logo {
 		width: 59.84375%;
@@ -1652,6 +1675,13 @@ footer .inner,
 	left: 0;
 	margin: auto;
 }
+#cast #contents .innerBlock-live .liveList-ul_text .info {
+	position: absolute;
+	top: 300px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
 #cast #contents .innerBlock-live .liveList-ul_img {
 	width: 50%;
 }
@@ -1712,7 +1742,9 @@ footer .inner,
 	#cast #contents .innerBlock-live .liveList-ul_text {
 		padding-top: 50%;
 	}
-
+	#cast #contents .innerBlock-live .liveList-ul_text .info {
+		top: 120px;
+	}
 	#cast #contents .innerBlock-live .liveList-ul li:nth-child(1) .liveList-ul_text > img{
 		width: 65px;
 	}

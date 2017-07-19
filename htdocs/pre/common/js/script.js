@@ -13,12 +13,33 @@ $(function(){
           $(this).attr("src", $(this).attr("src").replace('.png', '_sp.png'));
         });
     }
-});
-
-$(function(){
     $('.nav-btn').on('touchstart', function() {
         $('#header').toggleClass('is-active');
     });
+    // åªç›ínÇÃURLÇéÊìæ
+    var url = location.href;
+    $('.nav-ul li').removeClass('is-current');
+    if (url.match(/news/)) {
+        $('#nav-ul_news').addClass('is-current');
+    }
+    if (url.match(/info/)) {
+        $('#nav-ul_info').addClass('is-current');
+    }
+    if (url.match(/cast/)) {
+        $('#nav-ul_cast').addClass('is-current');
+    }
+    if (url.match(/lineup/)) {
+        $('#nav-ul_lineup').addClass('is-current');
+    }
+    if (url.match(/ticket/)) {
+        $('#nav-ul_ticket').addClass('is-current');
+    }
+    if (url.match(/movie/)) {
+        $('#nav-ul_movie').addClass('is-current');
+    }
+    if (url.match(/special/)) {
+        $('#nav-ul_special').addClass('is-current');
+    }
 });
 
 function changeTwitterWidgetDesign(){
