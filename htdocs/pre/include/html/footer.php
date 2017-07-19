@@ -5,5 +5,6 @@
 			<br>
 			&copy; けものフレンズプロジェクトA　<br class="sp_con">&copy; 三星めがね・COMICメテオ／恋愛暴君製作委員会
 		</p>
+		<p class="footer-banner"><a href="/2016/" target="_blank"><img src="/common/images/2016_bnr.png" alt="アニメJAM2016"></a></p>
 	</footer>
 	<!-- ▲ footer -->
