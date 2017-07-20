@@ -85,6 +85,12 @@ $RECENT_DATE = $RECENT_DATE;
 							2017年7月23日(日)21:00～<br class="sp_con">8月6日(日)23:59
 						</span>
 					</p>
+					<a href="http://t.pia.jp/pia/event/event.do?eventCd=1733610" target="_blank" class="info-btn">
+						<img src="../common/images/ticket_bo01.png" alt="チケットはこちら">
+					</a>
+					<a href="http://www.jtbbwt.com/section/houjinyokohama/anijam" target="_blank" class="info-btn">
+						<img src="../common/images/ticket_bo02.png" alt="ツアーパックはこちら">
+					</a>
 				</li>
 				<li>
 					<h3 class="info-list_ttl">

@@ -46,27 +46,13 @@
 					</a>
 				</li>
 				<li id="nav-ul_movie">
-					<a href="#TODO">
-						<img src="/common/images/nb07_sp.jpg" alt="MOVIE" class="sp_con">
-					</a>
+					<img src="/common/images/nb07-no_sp.jpg" alt="MOVIE" class="sp_con">
 				</li>
 				<li id="nav-ul_special">
-					<a href="#TODO">
-						<img src="/common/images/nb08_sp.jpg" alt="SPECIAL" class="sp_con">
-					</a>
+					<img src="/common/images/nb08-no_sp.jpg" alt="SPECIAL" class="sp_con">
 				</li>
 				<li id="nav-ul_goods">
-					<a href="#TODO">
-						<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
-					</a>
-				</li>
-			</ul>
-			<ul class="nav-sns">
-				<li>
-					<a href="http://www.facebook.com/share.php?u=http://anime-jam.com/" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="/common/images/fb-icon.png" alt="facebook"></a>
-				</li>
-				<li>
-					<a target="_blank" href="http://twitter.com/share?url=http://anime-jam.com/&text=TOP&hashtags=アニメJAM #TODO"><img src="/common/images/twi-icon.png" alt="Twitter"></a>
+					<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
 				</li>
 			</ul>
 			<ul class="nav-sns">

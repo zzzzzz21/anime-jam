@@ -258,22 +258,22 @@ footer .inner,
 	background: url(../images/hb05_on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_movie {
-	background: url(../images/hb06_off.png) left top no-repeat;
+	background: url(../images/hb06_no.png) left top no-repeat;
 	width: 66px;
 	height: 16px;
 }
 #header .nav-ul #nav-ul_movie:hover,
 #header .nav-ul #nav-ul_movie.is-current  {
-	background: url(../images/hb06_on.png) left top no-repeat;
+	background: url(../images/hb06_no.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_special {
-	background: url(../images/hb07_off.png) left top no-repeat;
+	background: url(../images/hb07_no.png) left top no-repeat;
 	width: 86px;
 	height: 16px;
 }
 #header .nav-ul #nav-ul_special:hover,
 #header .nav-ul #nav-ul_special.is-current  {
-	background: url(../images/hb07_on.png) left top no-repeat;
+	background: url(../images/hb07_no.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_goods {
 	background: url(../images/hb08_off.png) left top no-repeat;

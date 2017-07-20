@@ -80,7 +80,7 @@ $RECENT_DATE = $RECENT_DATE;
 						<img src="../common/images/info_hl02.png" alt="会場">
 					</h3>
 					<p class="info-list_text">
-						舞浜アンフィシアター
+						<a href="http://www.maihama-amphitheater.jp/" target="_blank">舞浜アンフィシアター</a>
 					</p>
 				</li>
 
@@ -134,7 +134,7 @@ $RECENT_DATE = $RECENT_DATE;
 							<br>
 							<span>※ホテル宿泊プランや限定グッズ、イベントグッズ事前<br class="sp_con">申込などの特典がついたスペシャルパック</span>
 						</span>
-						<a href="" class="text__schedule-link common-cl_red">
+						<a href="http://www.jtbbwt.com/section/houjinyokohama/anijam" target="_blank" class="text__schedule-link common-cl_red">
 							詳しくはコチラ
 						</a>
 					</p>
@@ -158,7 +158,7 @@ $RECENT_DATE = $RECENT_DATE;
 						<span class="text__inq">
 							<em>【チケットに関するお問い合わせ】</em>
 							<br>
-							チケットぴあ　http://t.pia.jp/help/
+							チケットぴあ　<a href="http://t.pia.jp/help/" target="_blank">http://t.pia.jp/help/</a>
 						</span>
 						<span class="text__inq">
 							<em>【JTBオフィシャルツアースペシャル<br class="sp_con">パックに関するお問い合わせ】</em>

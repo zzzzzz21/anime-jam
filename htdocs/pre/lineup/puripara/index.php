@@ -37,6 +37,11 @@ $RECENT_DATE = $RECENT_DATE;
 
 <!-- js -->
 <?php require_once "../../include/html/head_js.php";?>
+<script>
+	$(function() {
+		$('.lineUp-detail-text').matchHeight();
+	});
+</script>
 
 </head>
 
@@ -131,28 +136,26 @@ $RECENT_DATE = $RECENT_DATE;
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_staff&cast.png" alt="STAFF&CAST" class="staffcast"></h3>
 						<div class="lineUp-detail-text">
 							<dl class="lineUp-detail-dl">
-
 								<dt><img src="../../common/images/lineup_staff.png" alt="STAFF" class="staff"></dt>
 								<dd>
-									原作：タカラトミーアーツ/シンソフィア
-									<br>
-									アニメーション制作：タツノコプロ・DONGWOO Ａ＆Ｅ
-									<br>
-									監督：森脇真琴 / シリーズ構成：土屋理敬
-									<br>
-									キャラクターデザイン：原将治
+									【スタッフ】
+									原作：タカラトミーアーツ/シンソフィア<br>
+									アニメーション共同制作：タツノコプロ・DONGWOO A & E<br>
+									監督：森脇真琴<br>
+									シリーズ構成：土屋理敬<br>
+									キャラクター原案：金谷有希子（シンソフィア）<br>
+									キャラクターデザイン：原 将治<br>
+									CGディレクター：乙部善弘<br>
+									音楽：はまたけし<br>
+									音響監督：長崎行男
 								</dd>
 								<dt><img src="../../common/images/lineup_cast.png" alt="CAST" class="cast"></dt>
 								<dd class="small">
-									真中らぁら:茜屋日海夏 / 南みれぃ:芹澤優 / 北条そふぃ:久保田未夢
-									<br>
-									東堂シオン:山北早紀 / ドロシー・ウェスト:澁谷梓希
-									<br>
-									レオナ・ウェスト:若井友希 / 黒須あろま:牧野由依 / 白玉みかん:渡部優衣
-									<br>
-									ガァルル:真田アサミ / 黄木あじみ:上田麗奈 / ジュルル:上田麗奈
-									<br>
-									じゅのん:田中美海 / ぴのん:田中美海 / かのん:田中美海 / 真中のん:田中美海 
+									真中らぁら：茜屋日海夏 / 夢川ゆい：伊達朱里紗<br>
+									虹色にの：大地 葉 / 幸多みちる：山田唯菜 / 南みれぃ：芹澤 優<br>
+									北条そふぃ：久保田未夢 / 東堂シオン：山北早紀<br>
+									ドロシー・ウェスト：澁谷梓希 / レオナ・ウェスト：若井友希<br>
+									他
 								</dd>
 							</dl>
 						</div>
