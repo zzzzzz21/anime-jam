@@ -41,8 +41,10 @@
 <script src="../../common/js/script.js"></script>
 <script src="../../common/js/jquery.matchHeight-min.js"></script>
 <script>
-	$(function() {
-		$('.lineUp-detail-text').matchHeight();
+	$(document).ready(function(){
+		if($(window).width() > 767){
+			$('.lineUp-detail-text').matchHeight();
+		} 
 	});
 </script>
 </head>
@@ -135,7 +137,7 @@
 				</h2>
 				<div class="detailTop-logo">
 					<img src="../../common/images/lineup_detail1-logo.png" alt="アイドルタイムプリパラ">
-					<a href="" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
+					<a href="http://avex.jp/pripara/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
 				</div>
 				<div class="detailTop-img">
 					<img src="../../common/images/lineup_detail1-1.png" alt="アイドルタイムプリパラ">

@@ -755,6 +755,9 @@ footer .inner,
 	#news #contents .newsDetail .newsDetail-inner {
 		padding: 0 16px;
 	}
+	#news #contents .newsDetail .newsDetail-inner img {
+		max-width: 100%;
+	}
 	#news #contents .newsDetail .newsDetail-data {
 		position: absolute;
 		top: -55px;
@@ -1849,7 +1852,7 @@ footer .inner,
 	background: url(../images/top_kv.jpg) top center no-repeat;
 	width: 100%;
 	height: 0;
-	padding-top: 56.25%; /* ((1080 / 1920) * 100) */
+	padding: 56.25% 0 0; /* ((1080 / 1920) * 100) */
 	background-size: cover;
 	position: relative;
 }

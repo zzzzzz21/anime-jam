@@ -62,7 +62,7 @@ $RECENT_DATE = $RECENT_DATE;
 				</h2>
 				<div class="detailTop-logo">
 					<img src="../../common/images/lineup_detail1-logo.png" alt="アイドルタイムプリパラ">
-					<a href="http://www.tv-tokyo.co.jp/anime/pripara/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
+					<a href="http://avex.jp/pripara/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
 				</div>
 				<div class="detailTop-img">
 					<img src="../../common/images/lineup_detail1-1.png" alt="アイドルタイムプリパラ">

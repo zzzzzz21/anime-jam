@@ -48,7 +48,6 @@ $RECENT_DATE = $RECENT_DATE;
 		}else{
 			$(".youtube").colorbox.remove();
 		}
-
 	});	
 </script>
 
@@ -64,76 +63,33 @@ $RECENT_DATE = $RECENT_DATE;
 
 	<!-- ▼ contents -->
 	<div id="contents">
-
-		<div class="title">
-			<h2><span>MOVIE</span></h2>
+		<div class="contentsInner bgType01">
+			<section class="innerBlock">
+				<h2 class="contentsInner-h2">
+					<img src="../common/images/movie_title.png" alt="MOVIE">
+				</h2>
+			</section>
+			<ul class="movieList clearfix">
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				</li>
+			</ul>
 		</div>
-
-
-		<div id="contentsBody">
-
-			<div class="clearfix blc_3">
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-				<!-- post -->
-				<div class="post">
-					<a href="http://www.youtube.com/embed/UrR_7oClAZk" class="movieThumb youtube"><img src="../common/images/img_movieThumb.jpg" width="1200" height="630" alt="MOVIE"></a>
-				</div>
-				<!-- //post -->
-			</div>
-
-			<!-- pager -->
-			<div class="pager">
-				<a href="#" class="prev">&lt;</a>
-				<span class="current">1</span>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
-				<a href="#">5</a>
-				<a href="#">6</a>
-				<a href="#" class="next">&gt;</a>
-			</div>
-			<!-- //pager -->
-		</div>
-
 	</div>
 	<!-- ▲ contents -->
 

@@ -75,14 +75,14 @@ $RECENT_DATE = $RECENT_DATE;
 					</h3>
 					<p class="info-list_text">
 						<span class="text__schedule">
-							公式HP1次先行（抽選）:
+							オフィシャルHP1次先行（抽選）:
 							<br>
 							2017年7月23日(日)17:00～<br class="sp_con">8月6日(日)23:59
 						</span>
 						<span class="text__schedule">
 							JTBオフィシャルツアーパック（先着）：
 							<br>
-							2017年7月23日(日)21:00～<br class="sp_con">8月6日(日)23:59
+							2017年7月29日(土)18:00～<br class="sp_con">8月6日(日)23:59
 						</span>
 					</p>
 					<a href="http://t.pia.jp/pia/event/event.do?eventCd=1733610" target="_blank" class="info-btn">

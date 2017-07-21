@@ -8,7 +8,7 @@ if (typeof(window.matchMedia) == "function") {
 
 $(function(){
     if (isSP == true) {
-        $("#contents img").each(function(){
+        $("body[id!='news'] #contents img", "div[!class='sp_con'] img").each(function(){
           $(this).attr("src", $(this).attr("src").replace('.jpg', '_sp.jpg'));
           $(this).attr("src", $(this).attr("src").replace('.png', '_sp.png'));
         });
