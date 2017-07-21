@@ -1767,6 +1767,72 @@ footer .inner,
 		width: 106px;
 	}
 }
+/* movie
+===================================================================*/
+#movie #contents {
+	padding-bottom: 70px;
+}
+#movie .movieList {
+	width: 980px;
+	margin: 32px auto 0;
+}
+#movie .movieList > li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	line-height: 1;
+}
+#movie .movieList > li:nth-of-type(even) {
+	margin-left: 60px;
+}
+#movie .movieList > li:nth-of-type(n+3) {
+	margin-top: 60px;
+}
+#movie .movieList > li a {
+	display: block;
+	position: relative;
+}
+#movie .movieList > li a:after {
+	content: "";
+	background: url(../images/youtube_buttonL.png) top left repeat;
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto;
+}
+@media screen and (max-width: 767px) {
+	#movie #contents {
+		padding-bottom: 45px;
+	}
+	#movie .movieList {
+		width: 100%;
+		margin: 20px auto 0;
+	}
+	#movie .movieList > li{
+		display: block;
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+	}
+	#movie .movieList > li+li,
+	#movie .movieList > li:nth-of-type(even),
+	#movie .movieList > li:nth-of-type(n+3) {
+		margin: 12px auto 0;
+	}
+	#movie .movieList > li img {
+		width: 100%;
+	}
+	#movie .movieList > li a:after {
+		background: url(../images/youtube_buttonL_sp.png) top left repeat;
+		width: 42px;
+		height: 42px;
+		background-size: 100%;
+	}
+}
 /* ticket
 ===================================================================*/
 
