@@ -1,1 +1,1 @@
-http://anime-jam.com/common/images/ogimage.png
+http://anime-jam.com/common/images/2017_ogimage.png

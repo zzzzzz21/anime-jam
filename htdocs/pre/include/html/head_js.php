@@ -2,5 +2,5 @@
 <!--[if lt IE 9]>
 <script src="/common/js/html5.js"></script>
 <![endif]-->
-<script src="/common/js/script.js"></script>
+<script src="/common/js/script.js?date=<?php echo $RECENT_DATE; ?>"></script>
 <script src="/common/js/jquery.matchHeight-min.js"></script>

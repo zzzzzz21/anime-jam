@@ -540,6 +540,7 @@ footer .inner,
 	border: none;
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 #news #contents .newsList li .newsList-text {
 	padding: 0px 10px;
@@ -769,6 +770,10 @@ footer .inner,
 	}
 	#news #contents .newsDetail .newsDetail-inner .newsDetail-inner_text {
 		line-height: 1.75;
+	}
+	#news #contents .newsDetail .newsDetail-inner .newsDetail-inner_text img {
+		max-width: 100%;
+		height: auto;
 	}
 	#news #contents .newsDetail .newsDetail-inner .newsDetail-inner_text.top {
 		margin-top: 0;
