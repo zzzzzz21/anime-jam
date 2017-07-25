@@ -24,9 +24,6 @@ $RECENT_DATE = $RECENT_DATE;
 <?php require_once "../include/html/head_favicon.inc"; ?>
 
 <!--ogp -->
-<meta property="og:title" content="<?php echo PAGE_TITLE?>｜<?php include "../include/common/title.inc";?>">
-<meta property="og:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "../include/common/description.inc";?>">
-<meta property="og:type" content="website">
 <?php require_once "../include/common/og.inc";?>
 
 <!-- twitter_card -->

@@ -1,6 +1,6 @@
 <?php
 $artist_cd = 'ANIJ4';
-$env="test";	//test or production
+$env="production";	//test or production
 $RECENT_DATE ="2017007252319";
 $SCRIPT_URL = 'http://api.avex.jp/api_pc.php';
 

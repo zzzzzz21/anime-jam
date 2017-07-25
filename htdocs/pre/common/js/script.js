@@ -13,6 +13,12 @@ $(function(){
           $(this).attr("src", $(this).attr("src").replace('.png', '_sp.png'));
         });
     }
+    if (isSP == true) {
+        $("body[id='top'] .contentsInner-news img").each(function(){
+          $(this).attr("src", $(this).attr("src").replace('_sp.jpg', '.jpg'));
+          $(this).attr("src", $(this).attr("src").replace('_sp.png', '.png'));
+        });
+	}
     $('.nav-btn').on('touchstart', function() {
         $('#header').toggleClass('is-active');
     });
