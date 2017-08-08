@@ -1685,7 +1685,7 @@ footer .inner,
 }
 #cast #contents .innerBlock-live .liveList-ul_text .info {
 	position: absolute;
-	top: 300px;
+	top: 60%;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -1772,6 +1772,9 @@ footer .inner,
 		width: 134px;
 	}
 	#cast #contents .innerBlock-live .liveList-ul li:nth-child(7) .liveList-ul_text > img{
+		width: 106px;
+	}
+	#cast #contents .innerBlock-live .liveList-ul li:nth-child(8) .liveList-ul_text > img{
 		width: 106px;
 	}
 }
