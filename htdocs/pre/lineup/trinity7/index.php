@@ -57,7 +57,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<a href="http://movie.trinity-7.com/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
 				</div>
 				<div class="detailTop-img">
-					<img src="../../common/images/lineup_detail3-1.png" alt="劇場版トリニティセブン">
+					<img src="../../common/images/lineup_detail_trinity7-1.png" alt="劇場版トリニティセブン">
 				</div>
 				<div class="detailTop-bnr pc_con">
 					<img src="../../common/images/lineup_detail3-2.png" alt="劇場版トリニティセブン">

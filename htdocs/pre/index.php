@@ -196,7 +196,7 @@ $RECENT_DATE = $RECENT_DATE;
 		<!-- SP版 -->
 		<div class="contentsInner sp_con">
 			<div class="contentsInner-spVisual sp_con">
-				<img src="common/images/top_kv.jpg" alt="">
+				<img src="common/images/top_kv-2.jpg" alt="">
 			</div>
 			<div class="contentsInner-ticket">
 				<a href="http://w.pia.jp/t/anime-jam/" target="_blank"><img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター"></a>

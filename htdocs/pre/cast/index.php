@@ -254,7 +254,46 @@ $RECENT_DATE = $RECENT_DATE;
 				</dl>
 				<dl class="castList-dl">
 					<dt>
-						<img src="../common/images/cast5_logo.png" alt="けものフレンズ">
+						<img src="../common/images/logo_guruguru.png" alt="魔法陣グルグル">
+					</dt>
+					<dd>
+						<ul class="caslList-ul col-5 clearfix">
+							<li>
+								<figure>
+									<img src="../common/images/cast_guruguru_ishigami.jpg" alt="石上静香">
+									<figcaption>石上静香</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast_guruguru_kohara.jpg" alt="小原好美">
+									<figcaption>小原好美</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast_guruguru_konishi.jpg" alt="小西克幸">
+									<figcaption>小西克幸</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast_guruguru_taichi.jpg" alt="大地葉">
+									<figcaption>大地葉</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast_guruguru_fujii.jpg" alt="藤井ゆきよ">
+									<figcaption>藤井ゆきよ</figcaption>
+								</figure>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="castList-dl">
+					<dt>
+						<img src="../common/images/cast5_logo.png" alt="恋愛暴君">
 					</dt>
 					<dd>
 						<ul class="caslList-ul col-4 clearfix">

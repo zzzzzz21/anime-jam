@@ -62,7 +62,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<a href="http://kemono-friends.jp/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
 				</div>
 				<div class="detailTop-img">
-					<img src="../../common/images/lineup_detail4-1.png" alt="けものフレンズ">
+					<img src="../../common/images/lineup_detail_kfriends-1.png" alt="けものフレンズ">
 				</div>
 				<div class="detailTop-bnr pc_con">
 					<img src="../../common/images/lineup_detail4-2.png" alt="けものフレンズ">

@@ -1,10 +1,10 @@
 <?php
 $artist_cd = 'ANIJ4';
 $env="production";	//test or production
-$RECENT_DATE ="2017007252319";
+$RECENT_DATE ="2017008091830";
 $SCRIPT_URL = 'http://api.avex.jp/api_pc.php';
 
-define("BASE_DIR", "http://pre.anime-jam.com/");
+define("BASE_DIR", "http://anime-jam.com/");
 
 function out($str, $carrier) {
 	global $enc;

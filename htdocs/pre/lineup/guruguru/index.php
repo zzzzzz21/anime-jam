@@ -1,5 +1,5 @@
 <?php
-define("PAGE_TITLE", "アイドルタイムプリパラ｜LINEUP");
+define("PAGE_TITLE", "魔法陣グルグル｜LINEUP");
 require_once "../../_config.php";
 $artist_cd = $artist_cd;
 $RECENT_DATE = $RECENT_DATE;
@@ -34,16 +34,11 @@ $RECENT_DATE = $RECENT_DATE;
 
 <!-- js -->
 <?php require_once "../../include/html/head_js.php";?>
-<script>
-	$(function() {
-		$('.lineUp-detail-text').matchHeight();
-	});
-</script>
 
 </head>
 
 
-<body id="lineup-detail" class="second lineupPur">
+<body id="lineup-detail" class="second lineupGuruguru">
 <!-- Google Tag Manager -->
 <?php require_once "../../include/common/gtm-body.inc"; ?>
 <!-- End Google Tag Manager -->
@@ -58,14 +53,14 @@ $RECENT_DATE = $RECENT_DATE;
 					<img src="../../common/images/lineup_title.png" alt="lineup">
 				</h2>
 				<div class="detailTop-logo">
-					<img src="../../common/images/lineup_detail1-logo.png" alt="アイドルタイムプリパラ">
-					<a href="http://avex.jp/pripara/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
+					<img src="../../common/images/lineup_detail_guruguru-logo.png" alt="魔法陣グルグル">
+					<a href="http://guruguru-anime.jp/" target="_blank" class="detailTop-logo_btn"><img src="../../common/images/lineup_btn01.png" alt="OFFICIAL WEBSITE"></a>
 				</div>
 				<div class="detailTop-img">
-					<img src="../../common/images/lineup_detail_puripara-1.png" alt="アイドルタイムプリパラ">
+					<img src="../../common/images/lineup_detail_guruguru-1.png" alt="魔法陣グルグル">
 				</div>
 				<div class="detailTop-bnr pc_con">
-					<img src="../../common/images/lineup_detail1-2.jpg" alt="アイドルタイムプリパラ">
+					<img src="../../common/images/lineup_detail_guruguru-kv.png" alt="魔法陣グルグル">
 				</div>
 			</section>
 			<section class="lineUp-detail common-bg">
@@ -73,32 +68,32 @@ $RECENT_DATE = $RECENT_DATE;
 				<ul class="caslList-ul col-5 clearfix">
 					<li>
 						<figure>
-							<img src="../../common/images/cast1_1.jpg" alt="伊達朱里紗">
-							<figcaption>伊達朱里紗</figcaption>
+							<img src="../../common/images/cast_guruguru_ishigami.jpg" alt="石上静香">
+							<figcaption>石上静香</figcaption>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="../../common/images/cast1_2.jpg" alt="大地葉">
+							<img src="../../common/images/cast_guruguru_kohara.jpg" alt="小原好美">
+							<figcaption>小原好美</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="../../common/images/cast_guruguru_konishi.jpg" alt="小西克幸">
+							<figcaption>小西克幸</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="../../common/images/cast_guruguru_taichi.jpg" alt="大地葉">
 							<figcaption>大地葉</figcaption>
 						</figure>
 					</li>
 					<li>
 						<figure>
-							<img src="../../common/images/cast1_3.jpg" alt="山田唯菜">
-							<figcaption>山田唯菜</figcaption>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="../../common/images/cast1_4.jpg" alt="茜屋日海夏">
-							<figcaption>茜屋日海夏</figcaption>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="../../common/images/cast1_5.jpg" alt="山北早紀">
-							<figcaption>山北早紀</figcaption>
+							<img src="../../common/images/cast_guruguru_fujii.jpg" alt="藤井ゆきよ">
+							<figcaption>藤井ゆきよ</figcaption>
 						</figure>
 					</li>
 				</ul>
@@ -106,54 +101,36 @@ $RECENT_DATE = $RECENT_DATE;
 					<div class="detail-bottom-inner">
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_story.png" alt="STORY" class="story"></h3>
 						<div class="lineUp-detail-text">
-							<p>
-								アイドルになりたいと思っていた夢川ゆいは、
-								<br class="pc_con">
-								自分の住む町に「プリパラ」ができると知り、大喜び。
-							</p>
-							<p>
-								そんな時、ゆいの通う学校に転校してきたのは、
-								<br class="pc_con">
-								パラ宿でトップアイドルとして知られる真中らぁら。
-								<br class="sp_con">
-								<br>
-								ところが、らぁらはシステムエラーでプリパラチェンジしても姿が変わらなくなっていた……。
-							</p>
-							<p>
-								はたしてゆいは、自分が望むアイドルになれるのか？
-							</p>
-							<p>
-								そして２人はパパラ宿のプリパラを
-								<br class="pc_con">
-								アイドルでいっぱいにすることができるのか？！
-							</p>
+							<p>魔王を倒す勇者を募るというお触れを見た勇者マニアの父と母によって、<br class="pc_con">
+								半ば強制的に旅に出されたジミナ村の少年ニケ。</p>
+							<p>村のしきたりに従って、村外れに住む魔法オババの元を訪ねたニケは、<br class="pc_con">
+								そこで不思議な魔法グルグルを使う少女ククリを託される。</p>
+							<p>オババの話によれば、彼女はミグミグ族というグルグルを<br class="pc_con">
+								使うことのできる一族の最後の末裔で、<br class="pc_con">
+								いずれ現れる勇者を待ち続けていたのだという。</p>
+							<p>お調子者の小さな勇者と天真爛漫な魔法使いの少女が繰り広げる、<br class="pc_con">
+								「思いっきり笑えて、ちょっぴり泣ける」<br class="pc_con">
+								王道冒険ファンタジーが今、幕を開ける！ある日突然、男子高校生・藍野青司のもとに</p>
+
 						</div>
 					</div>
 					<div class="detail-bottom-inner">
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_staff&cast.png" alt="STAFF&CAST" class="staffcast"></h3>
 						<div class="lineUp-detail-text">
 							<dl class="lineUp-detail-dl">
+
 								<dt><img src="../../common/images/lineup_staff.png" alt="STAFF" class="staff"></dt>
 								<dd>
-									【スタッフ】
-									原作：タカラトミーアーツ/シンソフィア<br>
-									アニメーション共同制作：タツノコプロ・DONGWOO A & E<br>
-									監督：森脇真琴<br>
-									シリーズ構成：土屋理敬<br>
-									キャラクター原案：金谷有希子（シンソフィア）<br>
-									キャラクターデザイン：原 将治<br>
-									CGディレクター：乙部善弘<br>
-									音楽：はまたけし<br>
-									音響監督：長崎行男
-								</dd>
+									原作：衛藤ヒロユキ<br>
+									(ガンガンコミックスONLINE /スクウェア・エニックス刊)<br>
+									シリーズディレクター：博史池畠 / シリーズ構成：奥居久明<br>
+									キャラクターデザイン：浅野直之 / 音楽制作：ランティス<br>
+									アニメーション制作：Production I.G</dd>
 								<dt><img src="../../common/images/lineup_cast.png" alt="CAST" class="cast"></dt>
 								<dd class="small">
-									真中らぁら：茜屋日海夏 / 夢川ゆい：伊達朱里紗<br>
-									虹色にの：大地 葉 / 幸多みちる：山田唯菜 / 南みれぃ：芹澤 優<br>
-									北条そふぃ：久保田未夢 / 東堂シオン：山北早紀<br>
-									ドロシー・ウェスト：澁谷梓希 / レオナ・ウェスト：若井友希<br>
-									他
-								</dd>
+									ニケ：石上静香 / ククリ：小原好美 / キタキタおやじ：小西克幸<br>
+									ジュジュ：大地葉 / トマ：藤井ゆきよ / ギップル：櫻井孝宏<br>
+									ルンルン：大西沙織 / レイド：岡本信彦 / 総裁：石田彰</dd>
 							</dl>
 						</div>
 					</div>
