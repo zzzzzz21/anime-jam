@@ -1669,6 +1669,9 @@ footer .inner,
 #contents .caslList-ul.col-8 > li {
 	width: calc(100% / 8);
 }
+#contents .caslList-ul.col-9 > li {
+	width: calc(100% / 9);
+}
 #contents .caslList-ul > li figure {
 	position: relative;
 }
@@ -1766,7 +1769,8 @@ footer .inner,
 	#contents .caslList-ul.col-4 > li,
 	#contents .caslList-ul.col-5 > li,
 	#contents .caslList-ul.col-7 > li,
-	#contents .caslList-ul.col-8 > li {
+	#contents .caslList-ul.col-8 > li,
+	#contents .caslList-ul.col-9 > li {
 		width: 50%;
 	}
 	#contents .caslList-ul > li figure figcaption {
@@ -1831,23 +1835,37 @@ footer .inner,
 	width: 980px;
 	margin: 32px auto 0;
 }
-#movie .movieList > li {
+#movie .movieList__item {
+	width: 460px;
 	position: relative;
 	display: inline-block;
 	float: left;
 	line-height: 1;
 }
-#movie .movieList > li:nth-of-type(even) {
+#movie .movieList__item:nth-of-type(even) {
 	margin-left: 60px;
 }
-#movie .movieList > li:nth-of-type(n+3) {
+#movie .movieList__item:nth-of-type(n+3) {
 	margin-top: 60px;
 }
-#movie .movieList > li a {
+#movie .movieList__item a {
 	display: block;
-	position: relative;
 }
-#movie .movieList > li a:after {
+#movie .movieList__item__thumbnail {
+	position: relative;
+	margin-bottom: .6em;
+	width: 100%;
+	padding: 56.25% 0 0 0;
+}
+#movie .movieList__item__thumbnail iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*
+#movie .movieList__item__thumbnail:after {
 	content: "";
 	background: url(../images/youtube_buttonL.png) top left repeat;
 	width: 65px;
@@ -1858,6 +1876,21 @@ footer .inner,
 	left: 0;
 	right: 0;
 	margin: auto auto;
+}
+*/
+#movie .movieList__item__title {
+	display: block;
+	text-align: center;
+	color: #e50038;
+	font-weight: bold;
+	line-height: 1.4;
+}
+#movie .is--coming {
+	width: 100%;
+	text-align: center;
+	color: #e50038;
+	font-size: 20px;
+	font-size: 2rem;
 }
 @media screen and (max-width: 767px) {
 	#movie #contents {
@@ -1878,15 +1911,17 @@ footer .inner,
 	#movie .movieList > li:nth-of-type(n+3) {
 		margin: 12px auto 0;
 	}
-	#movie .movieList > li img {
+	#movie .movieList__item__thumbnail {
 		width: 100%;
 	}
-	#movie .movieList > li a:after {
+/*
+	#movie .movieList__item___thumbnail a:after {
 		background: url(../images/youtube_buttonL_sp.png) top left repeat;
 		width: 42px;
 		height: 42px;
 		background-size: 100%;
 	}
+*/
 }
 /* ticket
 ===================================================================*/

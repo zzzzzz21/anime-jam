@@ -105,8 +105,6 @@ $RECENT_DATE = $RECENT_DATE;
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_story.png" alt="STORY" class="story"></h3>
 						<div class="lineUp-detail-text">
 							<p>
-								ある日突然、男子高校生・藍野青司のもとに
-								<br>
 								任意の二人を強制的にキスさせるという
 								<br class="pc_con">
 								不思議アイテム「キスノート」を持った死神風の少女・グリが現れ、

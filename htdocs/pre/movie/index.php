@@ -4,6 +4,36 @@ require_once "../_config.php";
 $artist_cd = $artist_cd;
 $RECENT_DATE = $RECENT_DATE;
 ?>
+<?php
+/* ====================================================================== */
+$link_url = "detail.php";
+$param = array(
+	'mode'=> 2,
+	'artist_cd'	=> $artist_cd,
+	'limit'		=> '6',
+	'page'		=> $_REQUEST['page'],
+	'env'=> $env,
+);
+$enc = 'UTF-8';
+/*********************************/
+$param['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+$url = $SCRIPT_URL . '?' . http_build_query($param);
+if ( isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] == 'on' ) {
+	$protocol = 'https://';
+} else {
+	$protocol = 'http://';
+}
+
+$dir=$protocol.$_SERVER['HTTP_HOST'];
+if($xml = @simplexml_load_file($url)){
+	if(isset($xml->code)){
+		print "<!-- error : ".$xml->code." -->\n";
+	}else{
+	}
+}else{
+	print "<!-- error : XMLが取得できませんでした。 -->\n";
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -67,24 +97,22 @@ $RECENT_DATE = $RECENT_DATE;
 				</h2>
 			</section>
 			<ul class="movieList clearfix">
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
+				<?php if (isset($xml->item)):?>
+				<?php foreach($xml->item as $k=>$v):?>
+				<li class="movieList__item">
+					<a class="movieThumb youtube" href="<?php echo out($v->url, (string)$xml->carrier);?>&autoplay=1">
+						<?php if($v->url != ''):?>
+						<div class="movieList__item__thumbnail">
+							<iframe width="330" height="185" src="<?php echo out($v->url, (string)$xml->carrier);?>" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<span class="movieList__item__title"><?php echo out($v->title, (string)$xml->carrier);?></span>
+					</a>
+					<?php endif;?>
 				</li>
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
-				</li>
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
-				</li>
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
-				</li>
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
-				</li>
-				<li>
-					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="../common/images/movie_img01.png" alt=""></a>
-				</li>
+				<?php endforeach;?>
+				<?php else:?>
+				<li class="is--coming">COMING SOON</li>
+				<?php endif;?>
 			</ul>
 		</div>
 	</div>

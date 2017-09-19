@@ -200,7 +200,7 @@ $RECENT_DATE = $RECENT_DATE;
 						<img src="../common/images/cast4_logo.png" alt="けものフレンズ">
 					</dt>
 					<dd>
-						<ul class="caslList-ul col-8 clearfix">
+						<ul class="caslList-ul col-9 clearfix">
 							<li>
 								<figure>
 									<img src="../common/images/cast4_1.jpg" alt="尾崎由香">
@@ -245,7 +245,13 @@ $RECENT_DATE = $RECENT_DATE;
 							</li>
 							<li>
 								<figure>
-									<img src="../common/images/cast4_8.jpg" alt="内田彩">
+									<img src="../common/images/cast4_8.jpg" alt="山下まみ">
+									<figcaption>山下まみ</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast4_9.jpg" alt="内田彩">
 									<figcaption>内田彩</figcaption>
 								</figure>
 							</li>
