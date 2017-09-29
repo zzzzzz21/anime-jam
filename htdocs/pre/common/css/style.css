@@ -1064,6 +1064,7 @@ footer .inner,
 	#info #contents .info-list li:nth-of-type(5) .info-list_text {
 		margin-bottom: 0;
 	}
+	#info #contents .info-list .info-btn,
 	#info #contents .info-list .acter-btn {
 		width: 300px;
 		margin: 18px auto 30px;

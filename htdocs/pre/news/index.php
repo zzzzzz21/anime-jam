@@ -129,7 +129,7 @@ $RECENT_DATE = $RECENT_DATE;
 							$param .= "id=".$id;
 							$link = $uri."?".$param;
 
-							$html .= "<li>\n";	//▼<li>
+							$html .= "<li data-mh=\"news-list\">\n";	//▼<li>
 							$html .= "<div class=\"newsList-wrapper\">\n";
 							$html .= "<div class=\"newsList-data\">" .$date. "</div>\n";	//<div class="newsList-data">
 							$html .= "<a href=\"".$link."\">\n";			//▼<a href="">

@@ -65,7 +65,7 @@ $RECENT_DATE = $RECENT_DATE;
 			</section>
 			<section class="lineUp-detail common-bg">
 				<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_eventcast.png" alt="EVENTCAST" class="eventcast"></h3>
-				<ul class="caslList-ul col-7 clearfix">
+				<ul class="caslList-ul col-8 clearfix">
 					<li>
 						<figure>
 							<img src="../../common/images/cast3_1.jpg" alt="松岡禎丞">
@@ -106,6 +106,12 @@ $RECENT_DATE = $RECENT_DATE;
 						<figure>
 							<img src="../../common/images/cast3_7.jpg" alt="村川梨衣">
 							<figcaption>村川梨衣</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="../../common/images/cast3_8.jpg" alt="東山奈央">
+							<figcaption>東山奈央</figcaption>
 						</figure>
 					</li>
 				</ul>
