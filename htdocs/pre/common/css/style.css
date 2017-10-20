@@ -213,76 +213,79 @@ footer .inner,
 }
 /* グロナビメニューの挙動 */
 #header .nav-ul #nav-ul_info {
-	background: url(../images/hb01_off.png) left top no-repeat;
-	width: 111px;
-	height: 16px;
+	background: url(../images/navi_info.png) left top no-repeat;
+	width: 101px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_info:hover,
 #header .nav-ul #nav-ul_info.is-current {
-	background: url(../images/hb01_on.png) left top no-repeat;
+	background: url(../images/navi_info-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_cast {
-	background: url(../images/hb02_off.png) left top no-repeat;
-	width: 127px;
-	height: 16px;
+	background: url(../images/navi_cast.png) left top no-repeat;
+	width: 115px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_cast:hover,
 #header .nav-ul #nav-ul_cast.is-current {
-	background: url(../images/hb02_on.png) left top no-repeat;
+	background: url(../images/navi_cast-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_news {
-	background: url(../images/hb03_off.png) left top no-repeat;
-	width: 60px;
-	height: 16px;
+	background: url(../images/navi_news.png) left top no-repeat;
+	width: 55px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_news:hover,
 #header .nav-ul #nav-ul_news.is-current{
-	background: url(../images/hb03_on.png) left top no-repeat;
+	background: url(../images/navi_news-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_lineup {
-	background: url(../images/hb04_off.png) left top no-repeat;
-	width: 76px;
-	height: 16px;
+	background: url(../images/navi_lineup.png) left top no-repeat;
+	width: 69px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_lineup:hover,
 #header .nav-ul #nav-ul_lineup.is-current {
-	background: url(../images/hb04_on.png) left top no-repeat;
+	background: url(../images/navi_lineup-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_ticket {
-	background: url(../images/hb05_off.png) left top no-repeat;
-	width: 73px;
-	height: 16px;
+	background: url(../images/navi_ticcket.png) left top no-repeat;
+	width: 67px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_ticket:hover,
 #header .nav-ul #nav-ul_ticket.is-current {
-	background: url(../images/hb05_on.png) left top no-repeat;
+	background: url(../images/navi_ticket-on.png) left top no-repeat;
 }
-#header .nav-ul #nav-ul_movie {
-	background: url(../images/hb06_no.png) left top no-repeat;
-	width: 66px;
-	height: 16px;
+#header .nav-ul #nav-ul_movie,
+#header .nav-ul #nav-ul_live-viewing {
+	background: url(../images/navi_liveviewing.png) left top no-repeat;
+	width: 122px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_movie:hover,
-#header .nav-ul #nav-ul_movie.is-current  {
-	background: url(../images/hb06_no.png) left top no-repeat;
+#header .nav-ul #nav-ul_movie.is-current,
+#header .nav-ul #nav-ul_live-viewing:hover,
+#header .nav-ul #nav-ul_live-viewing.is-current  {
+	background: url(../images/navi_liveviewing-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_special {
-	background: url(../images/hb07_no.png) left top no-repeat;
-	width: 86px;
-	height: 16px;
+	background: url(../images/navi_special-off.png) left top no-repeat;
+	width: 81px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_special:hover,
 #header .nav-ul #nav-ul_special.is-current  {
-	background: url(../images/hb07_no.png) left top no-repeat;
+	background: url(../images/navi_special-on.png) left top no-repeat;
 }
 #header .nav-ul #nav-ul_goods {
-	background: url(../images/hb08_off.png) left top no-repeat;
-	width: 145px;
-	height: 16px;
+	background: url(../images/navi_goods-off.png) left top no-repeat;
+	width: 133px;
+	height: 15px;
 }
 #header .nav-ul #nav-ul_goodsl:hover,
 #header .nav-ul #nav-ul_goodsl.is-current {
-	background: url(../images/hb08_on.png) left top no-repeat;
+	background: url(../images/navi_goods-on.png) left top no-repeat;
 }
 #header .nav-sns {
 	margin-left: 26px;
@@ -799,34 +802,40 @@ footer .inner,
 		width: 100%;
 	}
 }
-/* Event info と Ticket
+/* Event info と Ticket と Live Viewing
 ===================================================================*/
 
-/* EVENT info と Ticket共通(PC) */
+/* 共通(PC) */
 #info #contents .contentsInner-h2 > img,
-#ticket #contents .contentsInner-h2 > img {
+#ticket #contents .contentsInner-h2 > img,
+#liveviewing #contents .contentsInner-h2 > img {
 	width: 54.921875%; /* ((703 / 1280) * 100) */
 }
 #info #contents .info-list,
-#ticket #contents .info-list {
+#ticket #contents .info-list,
+#liveviewing #contents .info-list {
 	margin-top: 2.8%;
 }
 #info #contents .info-list li,
-#ticket #contents .info-list li {
+#ticket #contents .info-list li,
+#liveviewing #contents .info-list li {
 	width: 50%;
 	display: inline-block;
 }
 #info #contents .info-list_ttl > img,
-#ticket #contents .info-list_ttl > img{
+#ticket #contents .info-list_ttl > img,
+#liveviewing #contents .info-list_ttl > img{
 	width: 92.65625%;/* ((593 / 640) * 100) */
 }
 #info #contents li:nth-of-type(even) .info-list_text,
-#ticket #contents li:nth-of-type(odd) .info-list_text {
+#ticket #contents li:nth-of-type(odd) .info-list_text,
+#liveviewing #contents li:nth-of-type(even) .info-list_text {
 	padding-right: 14%;
 	text-align: right;
 }
 #info #contents .info-list_text,
-#ticket #contents .info-list_text {
+#ticket #contents .info-list_text,
+#liveviewing #contents .info-list_text {
 	padding-top: 0%;
 /*
 	font-size: 1.54vw;
@@ -836,23 +845,27 @@ footer .inner,
 	margin-top: 1%;
 }
 #info #contents .info-list_text .text__date,
-#ticket #contents .info-list_text .text__date {
+#ticket #contents .info-list_text .text__date,
+#liveviewing #contents .info-list_text .text__date {
 	margin-top: -1%;
 	display: block;
 	letter-spacing: 3px;
 }
 #info #contents .info-list_text .text__date > span,
-#ticket #contents .info-list_text .text__date > span {
+#ticket #contents .info-list_text .text__date > span,
+#liveviewing #contents .info-list_text .text__date > span {
 	font-size: 1.4em;
 }
 #info #contents .info-list_text .text__caution,
-#ticket #contents .info-list_text .text__caution {
+#ticket #contents .info-list_text .text__caution,
+#liveviewing #contents .info-list_text .text__caution {
 	font-size: 0.8em;
 	line-height: 2.1;
 	display: block;
 }
 #info #contents .info-list_text .text__schedule,
-#ticket #contents .info-list_text .text__schedule {
+#ticket #contents .info-list_text .text__schedule,
+#liveviewing #contents .info-list_text .text__schedule {
 	display: block;
 	line-height: 1.65;
 	margin-top: 4%;
@@ -862,10 +875,11 @@ footer .inner,
 	font-size: 19px;
 }
 #info #contents .info-list_text .text__schedule + .text__schedule,
-#ticket #contents .info-list_text .text__schedule + .text__schedule {
+#ticket #contents .info-list_text .text__schedule + .text__schedule,
+#liveviewing #contents .info-list_text .text__schedule + .text__schedule {
 	margin-top: 1.5%;
 }
-#info #contents .info-list .info-btn,
+
 #ticket #contents .info-list .info-btn {
 	margin: 30px 0 0 13%;
 	position: relative;
@@ -873,8 +887,9 @@ footer .inner,
 	display: block;
 }
 #info #contents .info-list_text .text__inq,
-#ticket #contents .info-list_text .text__inq {
-/*
+#ticket #contents .info-list_text .text__inq,
+#liveviewing #contents .info-list_text .text__inq {
+	/*
 	font-size: 1.27vw;
 */
 	font-size: 16px;
@@ -882,71 +897,182 @@ footer .inner,
 	display: block;
 }
 #info #contents .info-list_text .text__inq + .text__inq,
-#ticket #contents .info-list_text .text__inq + .text__inq {
+#ticket #contents .info-list_text .text__inq + .text__inq,
+#liveviewing #contents .info-list_text .text__inq + .text__inq {
 	margin-top: 5.6%;
 }
-/* EVENT info 固有(PC) */
-#info #contents {
+/* EVENT info Live Viewing 共通(PC) */
+#info #contents,
+#liveviewing #contents {
 	padding: 113px 0 117px;
 }
-#info #contents .contentsInner-text {
+#info #contents .contentsInner-text,
+#liveviewing #contents .contentsInner-text {
 	padding: 2.5% 0 0 3.5%;
 	width: 100%;
 	box-sizing: border-box;
 }
-#info #contents .contentsInner-text > img {
+#info #contents .contentsInner-text > img,
+#liveviewing #contents .contentsInner-text > img {
 	width: 81.6%; /* ((1008 / 1280) * 100) */
 }
-#info #contents .info-list li:nth-of-type(odd) {
+#info #contents .info-list li:nth-of-type(odd),
+#liveviewing #contents .info-list li:nth-of-type(odd) {
 	float: right;
 }
-#info #contents .info-list li:nth-of-type(2) {
+#info #contents .info-list li:nth-of-type(2),
+#liveviewing #contents .info-list li:nth-of-type(2) {
 	padding-top: 3.8%;
 	margin-bottom: 13%;
 }
-#info #contents .info-list li:nth-of-type(4) {
+#info #contents .info-list li:nth-of-type(4),
+#liveviewing #contents .info-list li:nth-of-type(4) {
 	margin-top: -5%;
 	margin-bottom: 4.5%;
 }
-#info #contents .info-list li:nth-of-type(6) {
+#info #contents .info-list li:nth-of-type(6),
+#liveviewing #contents .info-list li:nth-of-type(6) {
 	margin-top: 2.8%;
 	margin-bottom: 0.8%;
 }
-#info #contents .info-list li:nth-of-type(7) {
+#info #contents .info-list li:nth-of-type(7),
+#liveviewing #contents .info-list li:nth-of-type(7) {
 	margin-top: -5.7%;
 }
-#info #contents .info-list li:nth-of-type(8) {
+#info #contents .info-list li:nth-of-type(8),
+#liveviewing #contents .info-list li:nth-of-type(8) {
 	margin-top: 7.3%;
 }
-#info #contents .info-list li:nth-of-type(9) {
+#info #contents .info-list li:nth-of-type(9),
+#liveviewing #contents .info-list li:nth-of-type(9) {
 	margin-top: -6.3%;
 }
-#info #contents .info-list li:nth-of-type(10) {
+#info #contents .info-list li:nth-of-type(10),
+#liveviewing #contents .info-list li:nth-of-type(10) {
 	margin-top: 6.5%;
 }
-#info #contents .info-list li:nth-of-type(odd) .info-list_ttl {
+#info #contents .info-list li:nth-of-type(odd) .info-list_ttl,
+#liveviewing #contents .info-list li:nth-of-type(odd) .info-list_ttl {
 	text-align: right;
 }
-#info #contents .info-list li:nth-of-type(5) .info-list_text {
+#info #contents .info-list li:nth-of-type(5) .info-list_text,
+#liveviewing #contents .info-list li:nth-of-type(5) .info-list_text {
 	margin-bottom: 2%;
 }
-#info #contents li:nth-of-type(odd) .info-list_text {
+#info #contents li:nth-of-type(odd) .info-list_text,
+#liveviewing #contents li:nth-of-type(odd) .info-list_text {
 	padding-left: 14%;
 }
-#info #contents .info-list .acter-btn {
+#info #contents .info-list .acter-btn,
+#liveviewing #contents .info-list .info-btn,
+#liveviewing #contents .info-list .acter-btn {
 	margin: 19px 0 0 13.5%;
 	position: relative;
 	width: 463px;
 	display: block;
 }
-#info #contents .info-list_ttl.info-list_ttlSub {
+#info #contents .info-list_ttl.info-list_ttlSub,
+#liveviewing #contents .info-list_ttl.info-list_ttlSub {
 	margin-top: 16%;
 }
-#info #contents .text__schedule-link {
+#info #contents .text__schedule-link,
+#liveviewing #contents .text__schedule-link {
 	font-weight: bold;
 }
-#info #contents .info-list .info-btn {
+#info #contents .info-list .info-btn,
+#liveviewing #contents .info-list .info-btn {
 	margin: 0 0 0 13%;
+}
+/* LIVE VIEWING 固有(PC) */
+#liveviewing #contents .info-list li:nth-child(2) {
+	margin-bottom: 0;
+	float: left;
+}
+#liveviewing #contents .info-list li:nth-child(3) {
+	margin-top: 5.6%;
+}
+#liveviewing #contents .info-list li:nth-child(5) .text__schedule,
+#liveviewing #contents .info-list li:nth-child(7) .info-list_text {
+	font-size: 16px;
+}
+#liveviewing #contents .info-list li:nth-child(4),
+#liveviewing #contents .info-list li:nth-child(6),
+#liveviewing #contents .info-list li:nth-child(8) {
+	margin-top: 5.6%;
+	float: left;
+}
+#liveviewing #contents .info-list li:nth-child(7) {
+	margin-top: 5.6%;
+	clear: both;
+}
+#liveviewing #contents .info-list li:nth-child(4) {
+	margin-bottom: 0;
+	clear: both;
+}
+#liveviewing #contents .info-list li:nth-child(9) {
+	margin-top: 5.6%;
+	float: left;
+	text-align: right;
+}
+#liveviewing #contents .info-list li:nth-child(9) .info-list_text {
+	padding-right: 14%;
+}
+#liveviewing #contents .info-list li:nth-child(9) .info-list_ttl {
+	text-align: left;
+}
+#liveviewing .table-list {
+	width: 73.607%;
+	margin: 5.6% auto 0;
+	text-align: center;
+	border-collapse:separate;
+	border-spacing:0px;
+}
+#liveviewing li:nth-of-type(even) .info-list_text--caution {
+	width: 73.607%;
+	margin: 5.6% auto 0;
+	padding: 0;
+	text-align: left;
+}
+.table-list thead th {
+	padding: .6em;
+	background: #e50038;
+	border-right: 1px dotted #fff;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+.table-list thead th:last-child {
+	border-right: 1px solid #e50038;
+}
+.table-list tbody th,
+.table-list tbody td {
+	padding: .6em;
+	border-top: 1px solid #e50038;
+	border-bottom: 1px solid #e50038;
+	text-align: center;
+	vertical-align: middle;
+}
+.table-list tbody th {
+	border-left: 2px solid #e50038;
+	border-right: 1px dotted #e50038;
+}
+.table-list tbody td {
+}
+.table-list tbody td:last-child {
+	border-right: 2px solid #e50038;
+}
+.table-list tbody tr:last-child th,
+.table-list tbody tr:last-child td {
+	border-bottom-width: 2px;
+}
+.table-list tbody td a:link,
+.table-list tbody td a:visited {
+	font-weight: bold;
+	color: #e40038;
+	text-decoration: none;
+}
+.table-list tbody td a:hover {
+	text-decoration: underline;
 }
 /* TICKET 固有(PC) */
 #ticket #contents {
@@ -968,68 +1094,83 @@ footer .inner,
 	margin-left: 30px 0 0 6%;
 }
 @media screen and (max-width: 767px) {
-	/* EVENT infor と Ticket共通(SP) */
+	/* 共通(SP) */
 	#info #contents .contentsInner-h2 > img,
-	#ticket #contents .contentsInner-h2 > img  {
+	#ticket #contents .contentsInner-h2 > img,
+	#liveviewing #contents .contentsInner-h2 > img  {
 		width: 100%;
 	}
 	#info #contents .info-list li,
-	#ticket #contents .info-list li {
+	#ticket #contents .info-list li,
+	#liveviewing #contents .info-list li {
 		width:100%;
 	}
 	#info #contents .info-list_ttl > img,
-	#ticket #contents .info-list_ttl > img {
+	#ticket #contents .info-list_ttl > img,
+	#liveviewing #contents .info-list_ttl > img {
 		width: 100%;
 	}
 	#info #contents .info-list_text,
-	#ticket #contents .info-list_text {
+	#ticket #contents .info-list_text,
+	#liveviewing #contents .info-list_text {
 		font-size: 14px;
 		line-height: 1.8;
 	}
 	#info #contents .info-list_text .text__date > span,
-	#ticket #contents .info-list_text .text__date > span {
+	#ticket #contents .info-list_text .text__date > span,
+	#liveviewing #contents .info-list_text .text__date > span {
 		font-size: 1.2em;
 	}
 	#info #contents .info-list_text .text__schedule,
-	#ticket #contents .info-list_text .text__schedule {
+	#ticket #contents .info-list_text .text__schedule,
+	#liveviewing #contents .info-list_text .text__schedule {
 		font-size: 15px;
 		line-height: 1.5;
 		margin-top: 17px;
 	}
 	#info #contents .info-list_text .text__schedule + .text__schedule,
-	#ticket #contents .info-list_text .text__schedule + .text__schedule {
+	#ticket #contents .info-list_text .text__schedule + .text__schedule,
+	#liveviewing #contents .info-list_text .text__schedule + .text__schedule {
 		margin-top: 17px;
 	}
 	#info #contents .info-list_text .text__inq,
-	#ticket #contents .info-list_text .text__inq {
+	#ticket #contents .info-list_text .text__inq,
+	#liveviewing #contents .info-list_text .text__inq {
 		font-size: 12px;
 		line-height: 2.2;
 	}
 	#info #contents .info-list .info-btn,
-	#ticket #contents .info-list .info-btn {
+	#ticket #contents .info-list .info-btn,
+	#liveviewing #contents .info-list .info-btn {
 		width: 299px;
 		margin: 14px auto 0;
 	}
 	#info #contents .info-list .info-btn > img,
-	#ticket #contents .info-list .info-btn > img {
+	#ticket #contents .info-list .info-btn > img,
+	#liveviewing #contents .info-list .info-btn > img {
 		width: 100%;
 	}
-	/* EVENT info 固有(SP) */
-	#info #contents {
+	/* EVENT info と　Live Viewing共通(SP) */
+	#info #contents,
+	#liveviewing #contents {
 		padding: 80px 0 30px;
 	}
 
-	#info #contents .contentsInner-text {
+	#info #contents .contentsInner-text,
+	#liveviewing #contents .contentsInner-text {
 		padding: 0;
 		margin-top: 30px;
 	}
-	#info #contents .contentsInner-text > img {
+	#info #contents .contentsInner-text > img,
+	#liveviewing #contents .contentsInner-text > img {
 		width: 100%;
 	}
-	#info #contents .info-list {
+	#info #contents .info-list,
+	#liveviewing #contents .info-list {
 		margin-top: 25px;
 	}
-	#info #contents .info-list li:nth-of-type(odd) {
+	#info #contents .info-list li:nth-of-type(odd),
+	#liveviewing #contents .info-list li:nth-of-type(odd) {
 		float: none;
 	}
 	#info #contents .info-list li + li,
@@ -1038,41 +1179,59 @@ footer .inner,
 	#info #contents .info-list li:nth-of-type(6),
 	#info #contents .info-list li:nth-of-type(7),
 	#info #contents .info-list li:nth-of-type(8),
-	#info #contents .info-list li:nth-of-type(9) {
-		margin-top: 26px;
+	#info #contents .info-list li:nth-of-type(9),
+	#liveviewing #contents .info-list li + li,
+	#liveviewing #contents .info-list li:nth-of-type(2),
+	#liveviewing #contents .info-list li:nth-of-type(4),
+	#liveviewing #contents .info-list li:nth-of-type(6),
+	#liveviewing #contents .info-list li:nth-of-type(7),
+	#liveviewing #contents .info-list li:nth-of-type(8),
+	#liveviewing #contents .info-list li:nth-of-type(9) {
+				margin-top: 26px;
 		padding-top: 0;
 		margin-bottom: 0;
 	}
-	#info #contents li:nth-of-type(1) .info-list_ttl > img {
+	#info #contents li:nth-of-type(1) .info-list_ttl > img,
+	#liveviewing #contents li:nth-of-type(1) .info-list_ttl > img {
 		width: 95.99375%;
 	}
-	#info #contents li:nth-of-type(odd) .info-list_ttl > img {
+	#info #contents li:nth-of-type(odd) .info-list_ttl > img,
+	#liveviewing #contents li:nth-of-type(odd) .info-list_ttl > img {
 		margin-left: auto;
 	}
-	#info #contents .info-list_text {
+	#info #contents .info-list_text,
+	#liveviewing #contents .info-list_text {
 		margin-top: 15px;
 	}
-	#info #contents li:nth-of-type(odd) .info-list_text {
+	#info #contents li:nth-of-type(odd) .info-list_text,
+	#liveviewing #contents li:nth-of-type(odd) .info-list_text {
 		padding-left: 30px;
 	}
-	#info #contents li:nth-of-type(even) .info-list_text {
+	#info #contents li:nth-of-type(even) .info-list_text,
+	#liveviewing #contents li:nth-of-type(even) .info-list_text {
 		padding-right: 38px;
 	}
-	#info #contents li:nth-of-type(6) .info-list_text {
+	#info #contents li:nth-of-type(6) .info-list_text,
+	#liveviewing #contents li:nth-of-type(6) .info-list_text {
 		padding-right: 29px;
 	}
-	#info #contents .info-list li:nth-of-type(5) .info-list_text {
+	#info #contents .info-list li:nth-of-type(5) .info-list_text,
+	#liveviewing #contents .info-list li:nth-of-type(5) .info-list_text {
 		margin-bottom: 0;
 	}
 	#info #contents .info-list .info-btn,
-	#info #contents .info-list .acter-btn {
+	#liveviewing #contents .info-list .acter-btn,
+	#liveviewing #contents .info-list .info-btn,
+	#liveviewing #contents .info-list .acter-btn {
 		width: 300px;
 		margin: 18px auto 30px;
 	}
-	#info #contents .info-list .acter-btn > img {
+	#info #contents .info-list .acter-btn > img,
+	#liveviewing #contents .info-list .acter-btn > img {
 		width: 100%;
 	}
-	#info #contents .info-list_ttl.info-list_ttlSub {
+	#info #contents .info-list_ttl.info-list_ttlSub,
+	#liveviewing #contents .info-list_ttl.info-list_ttlSub {
 		margin-top: 0;
 	}
 	#info #contents .info-list_text .text__schedule span {
@@ -1080,6 +1239,22 @@ footer .inner,
 		display: block;
 		line-height: 1.8;
 	}
+	/* LIVE VIEWING 固有(SP) */
+	#liveviewing .info-list li:nth-child(5) .info-list_text,
+	#liveviewing .info-list li:nth-child(7) .info-list_text {
+		padding-right: 38px;
+	}
+	#liveviewing .table-list {
+		width: 90%;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	#liveviewing li:nth-of-type(even) .info-list_text--caution {
+		width: 90%;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
 	/* TICKET 固有(SP) */
 	#ticket #contents {
 		padding: 80px 0 60px;

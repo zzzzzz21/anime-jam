@@ -79,7 +79,7 @@ $RECENT_DATE = $RECENT_DATE;
 					<p class="info-list_text">
 						<a href="http://www.maihama-amphitheater.jp/" target="_blank">舞浜アンフィシアター</a>
 					</p>
-					<p class="info-list_text"><a href="/news/detail.php?id=1053933" class="info-btn"><img src="../common/images/info_bo03.png" alt="夜の部はライブビューイングも開催！"></a></p>
+					<p><a href="../liveviewing/" class="info-btn"><img src="../common/images/info_bo03.png" alt="夜の部はライブビューイングも開催！"></a></p>
 				</li>
 
 				<li>

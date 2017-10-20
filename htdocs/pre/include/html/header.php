@@ -45,14 +45,20 @@
 						<img src="/common/images/nb06_sp.jpg" alt="TICKET" class="sp_con">
 					</a>
 				</li>
-				<li id="nav-ul_movie">
-					<img src="/common/images/nb07-no_sp.jpg" alt="MOVIE" class="sp_con">
+				<li id="nav-ul_live-viewing" class="is-current">
+					<a href="/liveviewing/">
+						<img src="/common/images/nb_liveviewing_sp.jpg" alt="LIVE VIEWING" class="sp_con">
+					</a>
 				</li>
 				<li id="nav-ul_special">
-					<img src="/common/images/nb08-no_sp.jpg" alt="SPECIAL" class="sp_con">
+					<a href="#">
+						<img src="/common/images/nb08-no_sp.jpg" alt="SPECIAL" class="sp_con">
+					</a>
 				</li>
 				<li id="nav-ul_goods">
-					<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
+					<a href="#">
+						<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
+					</a>
 				</li>
 			</ul>
 			<ul class="nav-sns">

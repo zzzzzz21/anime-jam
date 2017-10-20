@@ -51,6 +51,7 @@ $RECENT_DATE = $RECENT_DATE;
 		$(".contentInner-twitter_content").mCustomScrollbar();
 	});
 </script>
+<link rel="stylesheet" href="common/css/colorbox.css">
 
 </head>
 
@@ -190,7 +191,7 @@ $RECENT_DATE = $RECENT_DATE;
 				<a href="http://w.pia.jp/t/anime-jam/" target="_blank"><img src="common/images/flame_ticket.png" alt="チケット受付中 2017/12/24 舞浜アンフィシアター"></a>
 				*/
 			?>
-				<a href="/news/detail.php?id=1053933"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>
+				<a href="liveviewing/"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>
 			</div>
 		</div>
 		<div class="contentsInnner-movie pc_con">
@@ -204,7 +205,7 @@ $RECENT_DATE = $RECENT_DATE;
 				<img src="common/images/top_kv-2.jpg" alt="">
 			</div>
 			<div class="contentsInner-ticket">
-				<a href="/news/detail.php?id=1053933"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>
+				<a href="liveviewing/"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>
 			</div>
 			<div class="contentsInner-news">
 				<?php
@@ -331,7 +332,6 @@ $RECENT_DATE = $RECENT_DATE;
 			</div>
 		</div>
 		<!-- colorbox -->
-		<link rel="stylesheet" href="common/css/colorbox.css">
 		<script src="common/js/jquery.colorbox-min.js"></script>
 		<script>
 			$(document).ready(function(){

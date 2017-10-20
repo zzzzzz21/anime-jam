@@ -43,6 +43,9 @@ $(function(){
     if (url.match(/movie/)) {
         $('#nav-ul_movie').addClass('is-current');
     }
+    if (url.match(/liveviewing/)) {
+        $('#nav-ul_live-viewing').addClass('is-current');
+    }
     if (url.match(/special/)) {
         $('#nav-ul_special').addClass('is-current');
     }
