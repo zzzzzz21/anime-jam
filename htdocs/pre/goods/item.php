@@ -1,7 +1,8 @@
 <?php
-define("PAGE_TITLE", "GOODS & FOODS");
-require_once($_SERVER['DOCUMENT_ROOT'] . "/_config.php");
+define("PAGE_TITLE", "GOODS");
+require_once "../_config.php";
 $artist_cd = $artist_cd;
+$RECENT_DATE = $RECENT_DATE;
 ?>
 <?php
 /* ====================================================================== */
@@ -37,43 +38,33 @@ if($xml = @simplexml_load_file($url)){
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Google Tag Manager -->
+<?php require_once "../include/common/gtm-head.inc"; ?>
+<!-- End Google Tag Manager -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index,follow">
 <meta name="format-detection" content="telephone=no">
 
-<!-- tdk -->
-<title><?php echo PAGE_TITLE;?>｜<?php include_once "../include/common/title.inc";?></title>
-<meta name="description" content="<?php echo PAGE_TITLE;?>ページです。<?php include '../include/common/description.inc';?>">
-<meta name="keywords" content="<?php echo PAGE_TITLE;?>,<?php include '../include/common/keywords.inc';?>">
+<title><?php echo PAGE_TITLE?>｜<?php include "../include/common/title.inc"?></title>
+<meta name="description" content="<?php echo PAGE_TITLE;?>ページです。<?php include "../include/common/description.inc";?>">
+<meta name="keywords" content="<?php echo PAGE_TITLE;?>,<?php include "../include/common/keywords.inc";?>">
 
 <!-- icon -->
 <?php require_once "../include/html/head_favicon.inc"; ?>
 
 <!--ogp -->
-<meta property="og:title" content="<?php include '../include/common/title.inc'?>">
-<meta property="og:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include '../include/common/description.inc';?>">
-<meta property="og:image" content="<?php include($_SERVER['DOCUMENT_ROOT'] . "/include/common/og-image.inc"); ?>">
-<meta property="og:url" content="<?php echo (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
-<meta property="og:site_name" content="<?php include '../include/common/title.inc'?>">
-<meta property="og:type" content="article">
-<meta property="fb:app_id" content="<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/include/common/fb-app_id.inc"); ?>">
+<?php require_once "../include/common/og.inc";?>
 
-<!-- twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@animejam_staff">
-<meta name="twitter:creator" content="@animejam_staff">
-<meta name="twitter:title" content="<?php include '../include/common/title.inc'?>">
-<meta name="twitter:description" content="<?php echo PAGE_TITLE;?>ページです。<?php include '../include/common/description.inc';?>">
-<meta name="twitter:url" content="<?php echo (empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
-<meta name="twitter:image" content="<?php include($_SERVER['DOCUMENT_ROOT'] . "/include/common/og-image.inc"); ?>">
+<!-- twitter_card -->
+<?php require_once "../include/common/twitter_card.inc";?>
 
 <!-- css -->
-<?php require_once "../include/html/head_css.php"; ?>
-<!-- colorbox -->
-<link rel="stylesheet" href="../common/css/colorbox.css">
+<?php require_once "../include/html/head_css.php";?>
+
 <!-- js -->
-<?php require_once "../include/html/head_js.php"; ?>
+<?php require_once "../include/html/head_js.php";?>
 <script type="text/javascript" src="../common/js/jquery.matchHeight-min.js"></script>
 <style>
 	html,body{
@@ -91,18 +82,17 @@ if($xml = @simplexml_load_file($url)){
 		}
 	}
 </style>
-<script type="text/javascript" src="<?php print(BASE_DIR)?>assets/common/js/jquery.js"></script>
 <script type="text/javascript">
 //<![CDATA[
 function replaceMainImage(div) {
-  $('#mainImage').attr('src', div.find('.photo img').attr('src'));
-  $('#mainImageCaption').text(div.find('.title').text());
+	$('#mainImage').attr('src', div.find('.photo img').attr('src'));
+	$('#mainImageCaption').text(div.find('.title').text());
 }
 $(document).ready(function() {
-  replaceMainImage($('#item_0'));
-  $('.item_image').click(function() {
-    replaceMainImage($(this));
-  });
+	replaceMainImage($('#item_0'));
+	$('.item_image').click(function() {
+		replaceMainImage($(this));
+	});
 });
 //]]>
 
@@ -110,49 +100,44 @@ $(document).ready(function() {
 $(window).load(function(){
 	var boxH = 0;
 	$(".thumbnail li").each(function(i){
-        
+
 		var h = $(this).children("span").children("img").height();
-		
+
 		if(boxH < h){
 			boxH = h;	
 		}
 
-    });
+	});
 	$(".thumbnail li").css({"height":boxH + 8});
 })
 
 </script>
+<!-- colorbox -->
+<link rel="stylesheet" href="../common/css/colorbox.css">
+<script src="../common/js/jquery.colorbox-min.js"></script>
+
 </head>
 
 <body id="goodsItem">
 <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TB3V54"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TB3V54');</script>
+<?php require_once "../include/common/gtm-body.inc"; ?>
 <!-- End Google Tag Manager -->
-	<!-- ▼ header -->
-	<header class="sp_con">
-		<nav class="clearfix">
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . "/include/html/header_logo.php"); ?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . "/include/html/header_nav.php"); ?>
-		</nav>
-	</header>
-	<!-- ▲ header -->
+
+<div class="sp_con">
+	<?php require_once "../include/html/header.php"; ?>
+</div>
+
 	<!-- ▼ contents -->
 	<div id="contents" class="sp_con">
 		<div class="title">
-			<h2><span><?php echo PAGE_TITLE;?></span></h2>
+			<h2><img src="../common/images/goods_title.png" alt="<?php echo PAGE_TITLE;?>"></h2>
 		</div>
 	</div>
 	<!-- ▲ contents -->
 	<div class="wrapper">
 		<div class="main clearfix">
 			<div class="clearfix">
-                	<div class="rightCol">
+                <div class="rightCol">
 					<h2 class="item-ttl"><?php echo out($xml->name, (string)$xml->carrier);?></h2>
 					<div id="item-txt">
 						<?php echo out($xml->text, (string)$xml->carrier);?>
@@ -193,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</div><!--/main-->
 		<div class="sp_con">
-			<div class="btnCenter"><a href="/goods/">GOODS & FOODS一覧に戻る</a></div>
+			<div class="btnCenter"><a href="/goods/">GOODS一覧に戻る</a></div>
 		</div>
 	</div><!--/wrapper-->
 </body>

@@ -55,33 +55,38 @@ $RECENT_DATE = $RECENT_DATE;
 			</section>
 			<ul class="lineupList clearfix">
 				<li>
-					<a href="/lineup/puripara/">
-						<img src="../common/images/lineup_index_img01.png" alt="アイドルタイムプリパラ">
+					<a href="puripara/">
+						<img src="../common/images/lineup_index_puripara.png" alt="アイドルタイムプリパラ">
 					</a>
 				</li>
 				<li>
-					<a href="/lineup/wug/">
-						<img src="../common/images/lineup_index_img02.png" alt="Wake Up, Girls! 新章">
+					<a href="wug/">
+						<img src="../common/images/lineup_index_wug.png" alt="Wake Up, Girls! 新章">
 					</a>
 				</li>
 				<li>
-					<a href="/lineup/trinity7/">
-						<img src="../common/images/lineup_index_img03.png" alt="劇場版トリニティセブン">
+					<a href="trinity7/">
+						<img src="../common/images/lineup_index_trinity7.png" alt="劇場版トリニティセブン">
 					</a>
 				</li>
 				<li>
-					<a href="/lineup/kfriends/">
-						<img src="../common/images/lineup_index_img04.png" alt="けものフレンズ">
+					<a href="kfriends/">
+						<img src="../common/images/lineup_index_kfriends.png" alt="けものフレンズ">
 					</a>
 				</li>
 				<li>
-					<a href="/lineup/guruguru/">
-						<img src="../common/images/lineup_index_img_guruguru.png" alt="魔法陣グルグル">
+					<a href="guruguru/">
+						<img src="../common/images/lineup_index_img_guruguru.png?20171023" alt="魔法陣グルグル">
 					</a>
 				</li>
 				<li>
-					<a href="/lineup/renaiboukun/">
-						<img src="../common/images/lineup_index_img05.png" alt="恋愛暴君">
+					<a href="youkai/">
+						<img src="../common/images/lineup_index_youkai.png" alt="妖怪ウォッチ">
+					</a>
+				</li>
+				<li>
+					<a href="renaiboukun/">
+						<img src="../common/images/lineup_index_renaiboukun.png" alt="恋愛暴君">
 					</a>
 				</li>
 			</ul>

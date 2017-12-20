@@ -72,14 +72,20 @@ $RECENT_DATE = $RECENT_DATE;
 					</h3>
 					<p class="info-list_text">
 						<span class="text__schedule">
-							オフィシャルHP3次先行（抽選）:
+							＜ぴあ＞<br>
+							◆ネット予約：<a href="http://w.pia.jp/t/anime-jam/" target="_blank">http://w.pia.jp/t/anime-jam/</a><br>
+							◆店頭購入：全国のセブン－イレブン（マルチコピー機操作）、サークルＫ・サンクス（Kステーション端末操作）にて販売。チケットぴあ店舗のみ翌日の10:00～発売。<br>
 							<br>
-							2017年8月25日(金)12:00～<br class="sp_con">8月29日(火)23:59
+							＜ｅ＋(イープラス)＞<br>
+							◆ネット予約：<a href="http://eplus.jp/anime-jam/" target="_blank">http://eplus.jp/anime-jam/</a><br>
+							◆店頭購入：ファミリーマート店内の端末「Famiポート」にて直接購入<br>
+							<br>
+							＜ローソンチケット＞<br> 
+							◆ネット予約：<a href="http://l-tike.com/" target="_blank">http://l-tike.com/</a><br>  
+							◆電話予約：0570-084-003 (Lコード：71755)　<br>
+							◆店頭購入：全国ローソン、ミニストップ設置の「Loppi」にて直接購入<br>
 						</span>
 					</p>
-					<a href="http://t.pia.jp/pia/event/event.do?eventCd=1733610" target="_blank" class="info-btn">
-						<img src="../common/images/ticket_bo01.png" alt="チケットはこちら">
-					</a>
 				</li>
 				<li>
 					<h3 class="info-list_ttl">

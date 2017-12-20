@@ -31,6 +31,7 @@ $RECENT_DATE = $RECENT_DATE;
 
 <!-- css -->
 <?php require_once "include/html/head_css.php";?>
+<link rel="stylesheet" href="common/css/layerBoard.css">
 
 <!-- js -->
 <?php require_once "include/html/head_js.php";?>
@@ -53,6 +54,18 @@ $RECENT_DATE = $RECENT_DATE;
 </script>
 <link rel="stylesheet" href="common/css/colorbox.css">
 
+<!-- layerBoard -->
+<script src="common/js/jquery.cookie.js"></script>
+<script src="common/js/jquery.layerBoard.js"></script>
+<script>
+	$(function(){
+		$('#layer_board_area').layerBoard({
+			fadeTime : 1000,
+			alpha:0.8,
+			limitMin : 0
+		});
+	})
+</script>
 </head>
 
 
@@ -60,6 +73,15 @@ $RECENT_DATE = $RECENT_DATE;
 <!-- Google Tag Manager -->
 <?php require_once "include/common/gtm-body.inc"; ?>
 <!-- End Google Tag Manager -->
+<!-- layer_board -->
+<div id="layer_board_area">
+	<div class="layer_board_bg"></div>
+	<div class="layer_board">
+		<p><img src="common/images/annouce.png" /></p>
+		<p class="btn_close"><a href="#"><img src="common/images/btn_close.png" alt="close" width="63" height="12" /></a></p>
+	</div>
+</div>
+<!-- //layer_board -->
 <?php require_once "include/html/header.php"; ?>
 	
 	<!-- ▼ contents -->
@@ -194,15 +216,27 @@ $RECENT_DATE = $RECENT_DATE;
 				<a href="liveviewing/"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>
 			</div>
 		</div>
-		<div class="contentsInnner-movie pc_con">
-			<div class="contentsInner-movie_content">
-				<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="common/images/top_youtube_img01.jpg" alt=""></a>
+		<?php
+		/*
+			<div class="contentsInnner-movie pc_con">
+				<div class="contentsInner-movie_content">
+					<a href="http://www.youtube.com/embed/XWpxsGf2ObU" class="movieThumb youtube"><img src="common/images/top_youtube_img01.jpg" alt=""></a>
+				</div>
 			</div>
-		</div>
+		*/
+		?>
 		<!-- SP版 -->
 		<div class="contentsInner sp_con">
 			<div class="contentsInner-spVisual sp_con">
-				<img src="common/images/top_kv-2.jpg" alt="">
+				<img src="common/images/top_kv-3.jpg?20171023" alt="">
+				<h2 class="linep-title"><img src="common/images/top_ttl_lineup.png" alt="Line Up"></h2>
+				<p><a href="lineup/puripara/" title="アイドルタイムプリパラ"><img src="common/images/top_puripara.jpg" alt="アイドルタイムプリパラ"></a></p>
+				<p><a href="lineup/wug/" title="Wake Up, Girls! 新章"><img src="common/images/top_wug.jpg" alt="Wake Up, Girls! 新章"></a></p>
+				<p><a href="lineup/trinity7/" title="劇場版トリニティセブン"><img src="common/images/top_trinity7.jpg" alt="劇場版トリニティセブン"></a></p>
+				<p><a href="lineup/kfriends/" title="けものフレンズ"><img src="common/images/top_kfriends.jpg" alt="けものフレンズ"></a></p>
+				<p><a href="lineup/guruguru/" title="魔法陣グルグル"><img src="common/images/top_guruguru.jpg" alt="魔法陣グルグル"></a></p>
+				<p><a href="lineup/youkai/" title="妖怪ウォッチ"><img src="common/images/top_youkai.jpg" alt="妖怪ウォッチ"></a></p>
+				<p><a href="lineup/renaiboukun/" title="恋愛暴君"><img src="common/images/top_renaiboukun.jpg" alt="恋愛暴君"></a></p>
 			</div>
 			<div class="contentsInner-ticket">
 				<a href="liveviewing/"><img src="common/images/flame_live-viewing.png" alt="ライブビューイングも開催！"></a>

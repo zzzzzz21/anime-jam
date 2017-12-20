@@ -51,12 +51,12 @@
 					</a>
 				</li>
 				<li id="nav-ul_special">
-					<a href="#">
-						<img src="/common/images/nb08-no_sp.jpg" alt="SPECIAL" class="sp_con">
+					<a href="/special/">
+						<img src="/common/images/nb08_sp.jpg" alt="special" class="sp_con">
 					</a>
 				</li>
 				<li id="nav-ul_goods">
-					<a href="#">
+					<a href="/goods/">
 						<img src="/common/images/nb09_sp.jpg" alt="GOODS&FOOD" class="sp_con">
 					</a>
 				</li>

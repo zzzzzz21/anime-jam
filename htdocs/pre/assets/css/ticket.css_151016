@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Template 
+   v0.1 | 20150430
+   License: none (public domain)
+   ―
+*/
+.layout-ticket {
+  margin-top: 75px;
+  min-width: 1180px;
+}
+
+.mod-ticket-title {
+  width: 144px;
+  margin: 0 auto 61px;
+  padding-top: 59px;
+}
+
+.mod-ticket-description {
+  width: 290px;
+  margin: 0 auto 31px;
+  min-height: 70px;
+}
+
+.layout-ticket-aside {
+  width: 290px;
+  height: 110px;
+  margin: 0 auto 20px;
+  border: 5px solid #F1F1F1;
+}
+
+.mod-ticket-price {
+  padding-top: 34px;
+  font-size: 20px;
+  color: #f33342;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.layout-ticket-noteList {
+  padding: 0 0 0 20px;
+  font-size: 12px;
+  margin: 30px 0 0;
+  text-align: left;
+}
+.layout-ticket-noteList li {
+  margin-top: 8px;
+  line-height: 1.6em;
+  width: 240px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+.layout-ticket-noteList li:first-child {
+  margin-top: 0px;
+}
+
+.mod-ticket-preorderBtn {
+  transition: all 0.75s cubic-bezier(0.77, 0, 0.175, 1);
+  margin: 0 0 100px 6px;
+  width: 290px;
+}
+.mod-ticket-preorderBtn:hover {
+  opacity: 0.75;
+}
+
+.ticket-box {
+  display: inline-block;
+  width: 290px;
+  margin: 0 16px 0;
+  vertical-align: top;
+}
+
+.ticket-wrap {
+  text-align: center;
+  width: 980px;
+  margin: 0 auto;
+}

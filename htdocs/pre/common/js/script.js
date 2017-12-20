@@ -8,7 +8,7 @@ if (typeof(window.matchMedia) == "function") {
 
 $(function(){
     if (isSP == true) {
-        $("body[id!='news'] #contents img").each(function(){
+        $("body[id!='news'] #contents img","body[id!='special'] #contents img").each(function(){
           $(this).attr("src", $(this).attr("src").replace('.jpg', '_sp.jpg'));
           $(this).attr("src", $(this).attr("src").replace('.png', '_sp.png'));
         });
@@ -49,6 +49,9 @@ $(function(){
     if (url.match(/special/)) {
         $('#nav-ul_special').addClass('is-current');
     }
+	if (url.match(/goods/)) {
+		$('#nav-ul_goods').addClass('is-current');
+	}
 });
 
 function changeTwitterWidgetDesign(){

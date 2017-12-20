@@ -97,6 +97,15 @@ $RECENT_DATE = $RECENT_DATE;
 						</figure>
 					</li>
 				</ul>
+				<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_live.png" alt="LIVE" class="live"></h3>
+				<div class="lineUp-detail-middle clearfix">
+					<div class="detail-middle_text">
+						<img src="../../common/images/lineup_oresama-ttl.png" alt="ORESAMA">
+					</div>
+					<div class="detail-middle_img">
+						<img src="../../common/images/lineup_oresama.jpg" alt="ORESAMA">
+					</div>
+				</div>
 				<div class="lineUp-detail-bottom clearfix">
 					<div class="detail-bottom-inner">
 						<h3 class="lineUp-detail-h3"><img src="../../common/images/lineup_subttl_story.png" alt="STORY" class="story"></h3>

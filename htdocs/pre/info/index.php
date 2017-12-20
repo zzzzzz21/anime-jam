@@ -97,6 +97,8 @@ $RECENT_DATE = $RECENT_DATE;
 						<br>
 						魔法陣グルグル
 						<br>
+						妖怪ウォッチ
+						<br>
 						恋愛暴君
 					</p>
 				</li>

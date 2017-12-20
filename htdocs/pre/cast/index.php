@@ -93,6 +93,7 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[プリパラ] -->
 				<dl class="castList-dl">
 					<dt>
 						<img src="../common/images/cast2_logo.png" alt="Wake Up, Girls">
@@ -144,6 +145,7 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[Wake Up, Girls! 新章] -->
 				<dl class="castList-dl">
 					<dt>
 						<img src="../common/images/cast3_logo.png" alt="劇場版トリニティセブン">
@@ -201,6 +203,7 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[劇場版トリニティセブン] -->
 				<dl class="castList-dl">
 					<dt>
 						<img src="../common/images/cast4_logo.png" alt="けものフレンズ">
@@ -264,6 +267,7 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[けものフレンズ] -->
 				<dl class="castList-dl">
 					<dt>
 						<img src="../common/images/logo_guruguru.png" alt="魔法陣グルグル">
@@ -303,6 +307,29 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[魔法陣グルグル] -->
+				<dl class="castList-dl">
+					<dt>
+						<img src="../common/images/cast_youkai_logo.png" alt="妖怪ウォッチ">
+					</dt>
+					<dd>
+						<ul class="caslList-ul col-2 clearfix">
+							<li>
+								<figure>
+									<img src="../common/images/cast_youkai_tomatsu.jpg" alt="戸松遥">
+									<figcaption>戸松遥</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="../common/images/cast_youkai_endou.jpg" alt="遠藤綾">
+									<figcaption>遠藤綾</figcaption>
+								</figure>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<!-- /[妖怪ウォッチ] -->
 				<dl class="castList-dl">
 					<dt>
 						<img src="../common/images/cast5_logo.png" alt="恋愛暴君">
@@ -336,11 +363,9 @@ $RECENT_DATE = $RECENT_DATE;
 						</ul>
 					</dd>
 				</dl>
+				<!-- /[恋愛暴君] -->
 			</div>
 			<section class="innerBlock-live">
-				<div class="andMore">
-					<img src="../common/images/cast_andmore.png" alt="and more...">
-				</div>
 				<h2 class="contentsInner-h2"><img src="../common/images/live_title.png" alt="title"></h2>
 				<ul class="liveList-ul">
 					<li class="clearfix">
@@ -354,6 +379,12 @@ $RECENT_DATE = $RECENT_DATE;
 							<img src="../common/images/live2_1.png" alt="Wake Up, Girls!">
 						</div>
 						<img src="../common/images/live2_2.jpg" alt="" class="liveList-ul_img">
+					</li>
+					<li class="clearfix">
+						<div class="liveList-ul_text">
+							<img src="../common/images/live_oresama_ttl.png" alt="ORESAMA">
+						</div>
+						<img src="../common/images/live_oresama.jpg" alt="" class="liveList-ul_img">
 					</li>
 					<li class="clearfix">
 						<div class="liveList-ul_text">
@@ -393,9 +424,6 @@ $RECENT_DATE = $RECENT_DATE;
 						<img src="../common/images/live8_2.jpg" alt="安野希世乃" class="liveList-ul_img">
 					</li>
 				</ul>
-				<div class="andMore andMore_bottom">
-					<img src="../common/images/cast_andmore.png" alt="and more...">
-				</div>
 			</section>
 		</div>
 	</div>
