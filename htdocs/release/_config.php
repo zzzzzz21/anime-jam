@@ -1,7 +1,7 @@
 <?php
 $artist_cd = 'ANIJ4';
 $env="production";	//test or production
-$RECENT_DATE ="2017012211426";
+$RECENT_DATE ="2017012231426";
 $SCRIPT_URL = 'http://api.avex.jp/api_pc.php';
 
 define("BASE_DIR", "http://anime-jam.com/");

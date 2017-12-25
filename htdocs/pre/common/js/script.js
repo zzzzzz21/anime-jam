@@ -8,13 +8,11 @@ if (typeof(window.matchMedia) == "function") {
 
 $(function(){
     if (isSP == true) {
-        $("body[id!='news'] #contents img,body[id!='special'] #contents img").each(function(){
+		$("body[id!='news'] #contents img,body[id!='special'] #contents img").each(function(){
 	      $(this).attr("src", $(this).attr("src").replace('.jpg', '_sp.jpg'));
           $(this).attr("src", $(this).attr("src").replace('.png', '_sp.png'));
         });
-    }
-    if (isSP == true) {
-        $("body[id='top'] .contentsInner-news img").each(function(){
+        $("body[id='top'] .contentsInner-news img,body[id='special'] #contents img,body[id='goods'] #contents img").each(function(){
           $(this).attr("src", $(this).attr("src").replace('_sp.jpg', '.jpg'));
           $(this).attr("src", $(this).attr("src").replace('_sp.png', '.png'));
         });
